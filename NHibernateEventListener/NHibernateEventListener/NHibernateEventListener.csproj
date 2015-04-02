@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0BD7DC85-0706-4FB3-8EAA-DFD6206ADC27}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{FCA713E3-9CBF-4955-99FA-205F284D095B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Model</RootNamespace>
-    <AssemblyName>Model</AssemblyName>
+    <RootNamespace>NHibernateEventListener</RootNamespace>
+    <AssemblyName>NHibernateEventListener</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -31,13 +33,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FluentNHibernate">
-      <HintPath>..\packages\FluentNHibernate.2.0.1.0\lib\net40\FluentNHibernate.dll</HintPath>
+      <HintPath>..\..\Shared\packages\FluentNHibernate.2.0.1.0\lib\net40\FluentNHibernate.dll</HintPath>
     </Reference>
     <Reference Include="Iesi.Collections">
-      <HintPath>..\packages\Iesi.Collections.4.0.0.4000\lib\net40\Iesi.Collections.dll</HintPath>
+      <HintPath>..\..\Shared\packages\Iesi.Collections.4.0.0.4000\lib\net40\Iesi.Collections.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
-      <HintPath>..\packages\NHibernate.4.0.0.4000\lib\net40\NHibernate.dll</HintPath>
+      <HintPath>..\..\Shared\packages\NHibernate.4.0.0.4000\lib\net40\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,17 +50,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base\ModelBase.cs" />
-    <Compile Include="NHibernateAutomappings\Project.cs" />
-    <Compile Include="NHibernateAutomappings\Task.cs" />
-    <Compile Include="NHibernateAutomappings\User.cs" />
-    <Compile Include="NHibernateEventListener\IDateInfo.cs" />
-    <Compile Include="NHibernateEventListener\Project.cs" />
-    <Compile Include="NHibernateEventListener\Task.cs" />
-    <Compile Include="NHibernateEventListener\User.cs" />
+    <Compile Include="AutomappingConfiguration.cs" />
+    <Compile Include="DataAccessLayer.cs" />
+    <Compile Include="DefaultConventions.cs" />
+    <Compile Include="NHListener.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Model\Model.csproj">
+      <Project>{0bd7dc85-0706-4fb3-8eaa-dfd6206adc27}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
