@@ -1,13 +1,11 @@
-﻿using DAL;
-using FluentNHibernate.Automapping;
+﻿using FluentNHibernate.Automapping;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
-using Model.NHibernateAutomappings;
 using FluentNHibernate.Conventions.Helpers;
+using Model.NHibernateAutomappings;
 using NHibernate;
-using NHibernate.Tool.hbm2ddl;
 
-namespace NHibernateAutomappings
+namespace NHibernateMultiqueries
 {
     public class DataAccesLayer
     {
