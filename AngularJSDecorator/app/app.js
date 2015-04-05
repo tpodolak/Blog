@@ -1,20 +1,17 @@
 (function () {
-    angular.module('myApp', [
-        'ngRoute'
+    angular.module('app', [
+        'ngRoute',
+        'app.common',
+        'app.download'
     ]).config(['$routeProvider', function ($routeProvider) {
-        $routeProvider.when('/', {
-            url: "/mainView",
-            controller: 'mainCtrl',
-            templateUrl: "views/mainView.html"
-        }).when('mainView', {
-            url: "/mainView",
-            controller: 'mainCtrl',
-            templateUrl: "views/mainView.html"
+        $routeProvider.when('/downloading', {
+            url: "/downloading",
+            controller: 'downloadCtrl',
+            templateUrl: "views/downloadView.html"
         }).otherwise({
-            redirectTo: '/mainView'
+            redirectTo: '/downloading'
         });
     }]);
 })();
-
 
 

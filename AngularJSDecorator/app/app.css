@@ -38,3 +38,8 @@ html, body {
     height: 100%;
     width: 100%
 }
+
+.nomargin{
+    padding: 0px !important;
+    margin: 0px !important;
+}
