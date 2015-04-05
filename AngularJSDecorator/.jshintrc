@@ -85,10 +85,6 @@
     // Custom Globals
     "globals"       : { 
     	"angular" :true,
-    	"InfiniteContainerController" :true,
-        "AlbumsController" :true,
-        "CachingController":true,
-    	"WinJS" :true,
     	"Windows" :true,
         "$":true
     }       
