@@ -1,0 +1,6 @@
+#table_container table { border: 1px solid black;float:left;width:400px;}
+#table_container td, #table_container th   { border: 1px solid black;}
+
+td.drop-target-hover {
+    border: 3px yellow !important;
+}
