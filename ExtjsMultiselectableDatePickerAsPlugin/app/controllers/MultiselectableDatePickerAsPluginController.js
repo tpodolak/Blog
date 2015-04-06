@@ -3,7 +3,7 @@ Ext.define('ExtjsExamples.controllers.MultiselectableDatePickerAsPluginControlle
     viewInstance: null,
     launch: function () {
         var me = this;
-        me.viewInstance = Ext.create('ExtjsExamples.views.VerticalHeaderView');
+        me.viewInstance = Ext.create('ExtjsExamples.views.MultiselectableDatePickerAsPluginView');
     },
 
     getView: function() {

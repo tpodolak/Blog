@@ -6,7 +6,7 @@ Ext.define('ExtjsExamples.controllers.MasterController', {
             selector: '#center-container'
         }
     ],
-    
+
     launch: function () {
         var me = this, controller = Ext.create('ExtjsExamples.controllers.MultiselectableDatePickerAsPluginController', {
             application: me.application
