@@ -1,0 +1,7 @@
+td.x-grid-cell.x-form-invalid-field {
+    background-color: white;
+    background-image: url(bower_components/bower-extjs/resources/ext-theme-classic/images/grid/invalid_line.gif);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    border-color: #c30
+}
