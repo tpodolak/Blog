@@ -198,3 +198,8 @@ tmp
 .idea
 *.all.js
 
+packages*/
+/packages/
+/packages/*
+!packages/repositories.config
+*.dll
