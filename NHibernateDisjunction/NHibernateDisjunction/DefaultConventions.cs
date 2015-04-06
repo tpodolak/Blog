@@ -1,7 +1,7 @@
 ﻿using FluentNHibernate.Conventions;
 using FluentNHibernate.Conventions.Instances;
 
-namespace DAL
+namespace NHibernateDisjunction
 {
 
     public class DefaultTableNameConvention : IClassConvention

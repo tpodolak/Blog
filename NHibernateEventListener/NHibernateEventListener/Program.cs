@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Data;
 using Model.NHibernateEventListener;
-using NHibernateAutomappings;
 
 namespace NHibernateEventListener
 {

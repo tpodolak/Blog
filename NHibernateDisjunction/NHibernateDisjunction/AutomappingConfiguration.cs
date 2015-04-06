@@ -2,7 +2,7 @@
 using FluentNHibernate.Automapping;
 using Model.Base;
 
-namespace DAL
+namespace NHibernateDisjunction
 {
     public class AutomappingConfiguration : DefaultAutomappingConfiguration
     {

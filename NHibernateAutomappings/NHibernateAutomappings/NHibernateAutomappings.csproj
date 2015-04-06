@@ -56,6 +56,7 @@
     <Compile Include="AutomappingConfiguration.cs" />
     <Compile Include="DataAccessLayer.cs" />
     <Compile Include="DefaultConventions.cs" />
+    <Compile Include="Mappings\ProjectMapping.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

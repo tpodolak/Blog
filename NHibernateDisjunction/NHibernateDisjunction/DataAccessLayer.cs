@@ -1,12 +1,11 @@
-﻿using DAL;
-using FluentNHibernate.Automapping;
+﻿using FluentNHibernate.Automapping;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
+using FluentNHibernate.Conventions.Helpers;
 using Model.NHibernateAutomappings;
 using NHibernate;
-using NHibernate.Tool.hbm2ddl;
 
-namespace NHibernateAutomappings
+namespace NHibernateDisjunction
 {
     public class DataAccesLayer
     {
@@ -42,6 +41,7 @@ namespace NHibernateAutomappings
                     @"Data Source=TOMEK;Initial Catalog=BlogSamples;Integrated Security=True").ShowSql())
                 .Mappings(val => val.AutoMappings.Add(AutoMap.AssemblyOf<Project>(new DefaultAutomappingConfiguration()).Conventions.Setup(con =>
                 {
+                    con.Add(AutoImport.Never());
                     con.Add<DefaultTableNameConvention>();
                     con.Add<DefaultPrimaryKeyConvention>();
                     con.Add<DefaultStringLengthConvention>();

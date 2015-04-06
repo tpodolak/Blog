@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using Model.NHibernateAutomappings;
 using NHibernate.Criterion;
-using NHibernateAutomappings;
 
 namespace NHibernateDisjunction
 {
@@ -17,6 +16,7 @@ namespace NHibernateDisjunction
             GetDataUsingDisjunction();
             GetDataUsingOrRestriction();
             GetDataUsingIsInExtension();
+            Console.ReadKey();
         }
 
         private static void GetDataUsingDisjunction()

@@ -1,5 +1,4 @@
-﻿using DAL;
-using FluentNHibernate.Automapping;
+﻿using FluentNHibernate.Automapping;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
 using FluentNHibernate.Conventions.Helpers;
@@ -7,9 +6,8 @@ using Model.NHibernateEventListener;
 using NHibernate;
 using NHibernate.Event;
 using NHibernate.Tool.hbm2ddl;
-using NHibernateEventListener;
 
-namespace NHibernateAutomappings
+namespace NHibernateEventListener
 {
     public class DataAccesLayer
     {
