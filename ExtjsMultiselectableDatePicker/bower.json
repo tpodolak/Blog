@@ -1,0 +1,10 @@
+{
+  "name": "MyCustomExtjsTemplate",
+  "description": "A starter project for Extjs",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bower-extjs":"0.0.4"
+  }
+}
