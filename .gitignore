@@ -174,8 +174,12 @@ tmp
 .idea
 *.all.js
 
+#Nuget
 packages*/
 /packages/
 /packages/*
 !packages/repositories.config
 *.dll
+
+#Devexpress
+licenses.licx

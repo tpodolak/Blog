@@ -1,0 +1,15 @@
+﻿
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#btnPdfAction').click(function() {
+            window.open("/Home/ExportToPdfUsingCustomResult", "empty", "_blank", "resizable=yes, scrollbars=yes, titlebar=yes, width=800, height=900, top=10, left=10");
+        });
+
+        $('#btnDefault').click(function () {
+            window.open("/Home/ExportToPdf", "empty", "_blank", "resizable=yes, scrollbars=yes, titlebar=yes, width=800, height=900, top=10, left=10");
+        });
+    })
+</script>
+<button id="btnPdfAction">Generate Pdf with PdfActionResult</button>
+<button id="btnDefault">Generate Pdf in controller </button>
