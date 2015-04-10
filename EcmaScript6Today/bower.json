@@ -1,0 +1,10 @@
+{
+  "name": "ECMAScript6",
+  "description": "ECMAScript6",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "traceur-runtime":"0.0.88"
+  }
+}
