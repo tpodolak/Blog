@@ -17,6 +17,6 @@
     "yargs": "^3.7.1"
   },
   "scripts": {
-    "postinstall": "bower install && gulp --babel"
+    "postinstall": "bower install"
   }
 }
