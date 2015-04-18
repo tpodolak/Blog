@@ -6,10 +6,10 @@ namespace NestedPropertyInitialization
     {
         static void Main(string[] args)
         {
-            var defaultSettings = new WebClient().Settings;
-            var webClientReplacedSettings = new WebClient
+            var defaultSettings = new CustomWebClient().Settings;
+            var webClientReplacedSettings = new CustomWebClient
             {
-                Settings = new WebClientSettings
+                Settings = new CustomWebClientSettings
                 {
                     Encoding = "UTF-8",
                     Method = "POST"
@@ -21,17 +21,17 @@ namespace NestedPropertyInitialization
             PrintComparedSettings(defaultSettings, webClientReplacedSettings.Settings);
             Console.WriteLine();
             // of course we can just set properties Encoding and Method without creating Settings object           
-            var webClientDotOperator = new WebClient();
+            var webClientDotOperator = new CustomWebClient();
             webClientDotOperator.Settings.Encoding = "UTF-8";
             webClientDotOperator.Settings.Method = "POST";
             // but there is a cooler syntax for that
             Console.WriteLine("Settings nested properties using nested object initializer");
-            webClientDotOperator = new WebClient { Settings = { Encoding = "UTF-8", Method = "POST" } };
+            webClientDotOperator = new CustomWebClient { Settings = { Encoding = "UTF-8", Method = "POST" } };
             PrintComparedSettings(defaultSettings, webClientDotOperator.Settings);
             Console.ReadKey();
         }
 
-        private static void PrintComparedSettings(WebClientSettings defaultSettings, WebClientSettings replacedSettings)
+        private static void PrintComparedSettings(CustomWebClientSettings defaultSettings, CustomWebClientSettings replacedSettings)
         {
             Console.WriteLine("Replaced setting \"Encoding\" now has value {0} as intended",
                 replacedSettings.Encoding);

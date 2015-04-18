@@ -3,9 +3,9 @@ using System;
 namespace NestedPropertyInitialization
 {
     /// <summary>
-    /// Some examplorary class to show nested property initializer
+    /// Some exemplary class to show nested property initializer
     /// </summary>
-    public class WebClientSettings
+    public class CustomWebClientSettings
     {
         public TimeSpan Timeout { get; set; }
         public string Method { get; set; }

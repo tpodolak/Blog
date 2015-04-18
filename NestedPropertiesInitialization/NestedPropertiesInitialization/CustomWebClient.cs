@@ -3,15 +3,15 @@
 namespace NestedPropertyInitialization
 {
     /// <summary>
-    /// Some examplorary class to show nested property initializer
+    /// Some exemplary class to show nested property initializer
     /// </summary>
-    public class WebClient
+    public class CustomWebClient
     {
-        public WebClientSettings Settings { get; set; }
+        public CustomWebClientSettings Settings { get; set; }
 
-        public WebClient()
+        public CustomWebClient()
         {
-            Settings = new WebClientSettings
+            Settings = new CustomWebClientSettings
             {
                 Encoding = "UTF-8",
                 Headers = new[] { "FirstHeader", "SecondHeader" },
