@@ -183,3 +183,6 @@ packages*/
 
 #Devexpress
 licenses.licx
+
+.vs/
+wwwroot/
