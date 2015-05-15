@@ -1,4 +1,4 @@
-﻿namespace DynamicCanBeUsefullSometimes.Models
+﻿namespace DynamicCanBeUseful.Models
 {
     public abstract class Weapon
     {

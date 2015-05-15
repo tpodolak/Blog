@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicCanBeUsefullSometimes", "DynamicCanBeUsefullSometimes\DynamicCanBeUsefullSometimes.csproj", "{E4E8C53A-07BB-49DB-89D6-255F2D5B0B0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicCanBeUseful", "DynamicCanBeUseful\DynamicCanBeUseful.csproj", "{E4E8C53A-07BB-49DB-89D6-255F2D5B0B0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

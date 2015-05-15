@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using DynamicCanBeUsefullSometimes.TransferObjects;
+using DynamicCanBeUseful.TransferObjects;
 
-namespace DynamicCanBeUsefullSometimes
+namespace DynamicCanBeUseful
 {
     public class WeaponService : IWeaponService
     {

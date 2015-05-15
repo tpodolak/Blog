@@ -1,4 +1,4 @@
-﻿namespace DynamicCanBeUsefullSometimes.TransferObjects
+﻿namespace DynamicCanBeUseful.TransferObjects
 {
     public class Sword : Weapon
     {

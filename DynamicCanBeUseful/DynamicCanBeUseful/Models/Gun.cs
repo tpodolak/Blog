@@ -1,4 +1,4 @@
-﻿namespace DynamicCanBeUsefullSometimes.TransferObjects
+﻿namespace DynamicCanBeUseful.Models
 {
     public class Gun : Weapon
     {

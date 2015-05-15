@@ -1,28 +1,9 @@
 ﻿using System;
 
-namespace DynamicCanBeUsefullSometimes.Converters
+namespace DynamicCanBeUseful.Converters
 {
     public class WeaponConverter
     {
-        /// <summary>
-        /// Without dynamic, ugly ifs 
-        /// </summary>
-        /// <param name="weapon"></param>
-        /// <returns></returns>
-        public static Models.Weapon ConvertOld(TransferObjects.Weapon weapon)
-        {
-            if (weapon is TransferObjects.Gun)
-            {
-                return ConvertInternal((TransferObjects.Gun)weapon);
-            }
-            if (weapon is TransferObjects.Sword)
-            {
-                return ConvertInternal((TransferObjects.Sword)weapon);
-            }
-
-            throw new ArgumentException("Unknown weapon", nameof(weapon));
-        }
-
         /// <summary>
         /// With dynamic nice oneliner
         /// </summary>
@@ -31,6 +12,25 @@ namespace DynamicCanBeUsefullSometimes.Converters
         public static Models.Weapon Convert(TransferObjects.Weapon weapon)
         {
             return weapon != null ? ConvertInternal((dynamic)weapon) : null;
+        }
+
+        /// <summary>
+        /// Without dynamic, ugly ifs 
+        /// </summary>
+        /// <param name="weapon"></param>
+        /// <returns></returns>
+        public static Models.Weapon ConvertOld(TransferObjects.Weapon weapon)
+        {
+            if (weapon == null)
+                return null;
+
+            if (weapon is TransferObjects.Gun)
+                return ConvertInternal((TransferObjects.Gun) weapon);
+
+            if (weapon is TransferObjects.Sword)
+                return ConvertInternal((TransferObjects.Sword) weapon);
+
+            throw new ArgumentException("Unknown weapon", nameof(weapon));
         }
 
         private static Models.Gun ConvertInternal(TransferObjects.Gun gun)
