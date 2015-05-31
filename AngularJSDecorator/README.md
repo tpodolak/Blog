@@ -5,9 +5,11 @@ To run the app
 
 ```bash
 npm install
+```
 
 ```bash
 node server.js
+```
 
 Enter in browser
 
