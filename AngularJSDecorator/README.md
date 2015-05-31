@@ -1,7 +1,18 @@
 Code samples for
 http://tomasz-net.blogspot.com/2015/02/angularjs-extending-existing-services.html
 
-Before launching index.html run in commandline
+To run the app
 
 ```bash
 npm install
+
+```bash
+node server.js
+
+Enter in browser
+
+```bash
+127.0.0.1:3000
+
+
+
