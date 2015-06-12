@@ -1,16 +1,10 @@
-Code samples for
-http://tomasz-net.blogspot.com/2015/02/angularjs-extending-existing-services.html
-
-
-To run the app
+To run the example
 ```bash
 npm install tsd -g
 npm install
-node server.js
-```
-Enter in browser
-```bash
-127.0.0.1:3000
+
+gulp buildwithoutfilter // to run failing build 
+gulp buildwithfilter    // to run successful build which leverages filters
 
 
 
