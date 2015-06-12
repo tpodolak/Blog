@@ -1,0 +1,23 @@
+{
+  "author": "Tomasz Podolak",
+  "name": "ExcludingDefinitelytypedFromTsLint",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">= 0.8.4"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.12.4",
+    "gulp": "3.8.10",
+    "gulp-clean": "0.3.1",
+    "gulp-concat": "2.4.2",
+    "gulp-filter": "2.0.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-tslint": "1.4.4",
+    "gulp-typescript": "2.7.6",
+    "run-sequence": "^1.1.0"
+  },
+  "scripts": {
+    "postinstall": "bower install && tsd reinstall --resolve --save --overwrite"
+  }
+}

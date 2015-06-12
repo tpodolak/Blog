@@ -1,0 +1,13 @@
+{
+  "name": "MyCustomAngularTemplate",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "bootstrap-css-only": "3.2.0"
+  }
+}

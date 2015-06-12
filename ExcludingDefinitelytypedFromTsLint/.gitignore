@@ -165,26 +165,4 @@ $RECYCLE.BIN/
 #Nodejs dev modules
 [Nn]ode_modules/
 
-logs/*
-!.gitkeep
-node_modules/
-bower_components/
-tmp
-.DS_Store
-.idea
-*.all.js
-
-#Nuget
-packages*/
-/packages/
-/packages/*
-!packages/repositories.config
-*.dll
-
-#Devexpress
-licenses.licx
-
-.vs/
-wwwroot/
-
-CSSBeforeAfterTooltip
+typings/
