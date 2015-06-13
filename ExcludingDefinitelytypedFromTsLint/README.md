@@ -1,3 +1,5 @@
+Code samples for http://tomasz-net.blogspot.com/2015/06/gulp-exluding-type-definitions-files.html
+
 To run the example
 ```bash
 npm install tsd -g
