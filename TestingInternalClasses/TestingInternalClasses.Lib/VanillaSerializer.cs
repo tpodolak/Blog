@@ -1,8 +1,11 @@
 ﻿using System;
 using System.IO;
+using System.Runtime.CompilerServices;
+[assembly: InternalsVisibleTo("TestingInternalClasses.Tests")]
 
 namespace TestingInternalClasses.Lib
 {
+
     internal class VanillaSerializer : ISerializer
     {
         public Stream Serialize(object obj)
