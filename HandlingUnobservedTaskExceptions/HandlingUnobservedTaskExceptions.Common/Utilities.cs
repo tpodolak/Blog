@@ -16,8 +16,23 @@ namespace HandlingUnobservedTaskExceptions.Common
                             // ReSharper disable once PossibleNullReferenceException
                             foreach (var ex in val.Exception.Flatten().InnerExceptions)
                             {
-                                Console.WriteLine("HandleExceptionContinueWith: exception handled in ContinueWith");
+                                Console.WriteLine("HandleExceptionContinueWith: exception handled in ContinueWith.");
                             }
+                        }, TaskContinuationOptions.OnlyOnFaulted);
+        }
+
+        public static void HandleExceptionContinueWithAndHandleMethod()
+        {
+            // ReSharper disable once PossibleNullReferenceException
+            // Console.WriteLine("Calling HandleExceptionContinueWithAndHandleMethod");
+            Task.Factory.StartNew(() => { throw new Exception("From method HandleExceptionContinueWith"); })
+                        .ContinueWith(val =>
+                        {
+                            val.Exception.Handle(ex =>
+                            {
+                                Console.WriteLine("HandleExceptionContinueWithAndHandleMethod: exception handled in AggregateException.Handle");
+                                return true;
+                            });
                         }, TaskContinuationOptions.OnlyOnFaulted);
         }
 
@@ -26,11 +41,15 @@ namespace HandlingUnobservedTaskExceptions.Common
             // Console.WriteLine("Calling HandleExceptionTryCatchWait");
             try
             {
-                Task.Factory.StartNew(() => { throw new Exception("From method HandleExceptionTryCatchWait"); }).Wait();
+                var task = Task.Factory.StartNew(() => { throw new Exception("From method HandleExceptionTryCatchWait"); });
+                // do more stuff while task is running
+                // do more stuff while task is running
+                // do more stuff while task is running
+                task.Wait();
             }
             catch (Exception ex)
             {
-                Console.WriteLine("HandleExceptionTryCatchWait: exception handled in try catch block");
+                Console.WriteLine("HandleExceptionTryCatchWait: exception handled in try catch block.");
             }
         }
 
@@ -39,15 +58,19 @@ namespace HandlingUnobservedTaskExceptions.Common
             // Console.WriteLine("Calling HandleExceptionTryCatchResult");
             try
             {
-                var result = Task.Factory.StartNew(() =>
+                var task = Task.Factory.StartNew(() =>
                 {
                     throw new Exception("From method HandleExceptionTryCatchResult");
                     return 1;
-                }).Result;
+                });
+                // do more stuff while task is running
+                // do more stuff while task is running
+                // do more stuff while task is running
+                var result = task.Result;
             }
             catch (Exception ex)
             {
-                Console.WriteLine("HandleExceptionTryCatchResult: exception handled in try catch block");
+                Console.WriteLine("HandleExceptionTryCatchResult: exception handled in try catch block.");
             }
         }
 

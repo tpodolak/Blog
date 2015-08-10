@@ -10,6 +10,7 @@ namespace HandlingUnobservedTaskExceptions.NET4._5
         {
             TaskScheduler.UnobservedTaskException += TaskScheduler_UnobservedTaskException;
             Utilities.HandleExceptionContinueWith();
+            Utilities.HandleExceptionContinueWithAndHandleMethod();
             Utilities.HandleExceptionTryCatchWait();
             Utilities.HandleExceptionTryCatchResult();
             HandleExceptionTryCatchAwait();
@@ -18,7 +19,7 @@ namespace HandlingUnobservedTaskExceptions.NET4._5
             Utilities.WaitForFinalizers();
 
             Utilities.FireAndForgetNoExceptionHandling();
-            // exception is not handled in here so once GC collects the task UnobservedException will be thrown
+            // exception is not handled in here so once GC collects the task TaskUnobservedException will be thrown
             Utilities.WaitForFinalizers();
             Console.ReadKey();
         }
@@ -28,6 +29,7 @@ namespace HandlingUnobservedTaskExceptions.NET4._5
             Console.WriteLine("Unobserved exception logged - process will not be killed because we are running .NET 4.5 (unless you changed escalation policy). Exception is: {0}", e.Exception);
         }
 
+        // called from Main
         public static async void HandleExceptionTryCatchAwait()
         {
             // Console.WriteLine("Calling HandleExceptionTryCatchAwait");

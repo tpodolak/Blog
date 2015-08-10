@@ -6,18 +6,21 @@ namespace HandlingUnobservedTaskExceptions.NET4._0
 {
     class Program
     {
+        private static bool handleUnobserved;
         static void Main(string[] args)
         {
+            bool.TryParse(args != null && args.Length > 0 ? args[0] : string.Empty, out handleUnobserved);
             TaskScheduler.UnobservedTaskException += TaskScheduler_UnobservedTaskException;
             AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
             Utilities.HandleExceptionContinueWith();
+            Utilities.HandleExceptionContinueWithAndHandleMethod();
             Utilities.HandleExceptionTryCatchWait();
             Utilities.HandleExceptionTryCatchResult();
             // we won't get unobserved exception in here
             Utilities.WaitForFinalizers();
 
             Utilities.FireAndForgetNoExceptionHandling();
-            // exception is not handled in here so once GC collects the task TaskUnobservedException will be thrown
+            // exception is not handled in here so once GC collects the task and all pending finalizer finishes work TaskUnobservedException will be thrown
             Utilities.WaitForFinalizers();
             Console.ReadKey();
         }
@@ -29,7 +32,14 @@ namespace HandlingUnobservedTaskExceptions.NET4._0
 
         private static void TaskScheduler_UnobservedTaskException(object sender, UnobservedTaskExceptionEventArgs e)
         {
-            Console.WriteLine("Unobserved exception logged - process WILL BE KILLED because we are running .NET 4.0, Exception is: {0}", e.Exception);
+            if (handleUnobserved)
+            {
+                e.SetObserved();
+                Console.WriteLine("Unobserved exception logged and set to observed in TaskScheduler_UnobservedTaskException, Exception is: {0}", e.Exception);
+            }
+            else
+                Console.WriteLine("Unobserved exception logged - process WILL BE KILLED because we are running .NET 4.0, Exception is: {0}",
+                    e.Exception);
         }
     }
 }
