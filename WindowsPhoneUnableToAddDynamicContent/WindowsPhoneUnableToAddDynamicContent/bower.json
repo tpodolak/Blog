@@ -1,0 +1,21 @@
+{
+  "name": "DynamicContent",
+  "version": "1",
+  "homepage": "https://github.com/tpodolak/Blog",
+  "authors": [
+    "tpodolak <tom.podolak@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "scripts",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.6",
+    "winstore-jscompat": "https://github.com/MSOpenTech/winstore-jscompat.git"
+  }
+}
