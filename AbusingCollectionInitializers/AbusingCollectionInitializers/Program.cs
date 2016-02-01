@@ -1,4 +1,5 @@
-﻿using static System.Console;
+﻿using System.Collections.Generic;
+using static System.Console;
 
 namespace AbusingCollectionInitializers
 {
@@ -6,6 +7,7 @@ namespace AbusingCollectionInitializers
     {
         static void Main(string[] args)
         {
+            var numbers = new List<int> { 1, 2, 3, 4 };
             var messagesAddInitializer = new StatusMessages
             {
                 new StatusMessage("y"),
@@ -36,7 +38,8 @@ namespace AbusingCollectionInitializers
 
             var messagesMultipleArgumentsInitializers = new StatusMessages
             {
-                { 1, "x" }
+                { 1, "x" },
+                {1,"x","source" }
             };
             DisplayMessages(nameof(messagesMultipleArgumentsInitializers), messagesMultipleArgumentsInitializers);
 

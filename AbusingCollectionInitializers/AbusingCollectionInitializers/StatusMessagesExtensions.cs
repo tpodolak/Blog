@@ -6,10 +6,5 @@
         {
             statusMessages.Add(new StatusMessage() { StatusCode = statusCode });
         }
-
-        public static void Add(this StatusMessages statusMessages, int statusCode, string text)
-        {
-            statusMessages.Add(new StatusMessage(text) { StatusCode = statusCode });
-        }
     }
 }
