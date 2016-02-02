@@ -1,2 +1,2 @@
 Code samples for
-http://tomasz-net.blogspot.com/2013/03/fluent-nhibernate-automappings.html
+http://tpodolak.com/blog/2013/03/25/fluent-nhibernate-automappings/

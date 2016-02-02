@@ -1,2 +1,2 @@
 Code samples for
-http://tomasz-net.blogspot.com/2013/08/nhibarnate-using-event-listeners-to-set.html
+http://tpodolak.com/blog/2013/08/24/nhibarnate-using-event-listeners-to-set-entity-modification-date/

@@ -1,2 +1,2 @@
 Code samples for
-http://tomasz-net.blogspot.com/2014/04/nhhibernate-multiple-queries-in-one.html
+http://tpodolak.com/blog/2014/04/27/nhhibernate-multiple-queries-in-one-roundtrip-to-server/

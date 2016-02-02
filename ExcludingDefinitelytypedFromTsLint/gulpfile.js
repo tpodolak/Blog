@@ -21,8 +21,6 @@ function clean() {
 };
 
 function buildTypeScriptWithoutFilter() {
-    var filter = gulpFilter(['**/*.ts', '!**/*d.ts']);
-
     return gulp.src(paths.typescripts)
         .pipe(tslint())
         .pipe(tslint.report('prose', {

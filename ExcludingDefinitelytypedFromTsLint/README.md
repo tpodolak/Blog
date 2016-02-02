@@ -1,4 +1,4 @@
-Code samples for http://tomasz-net.blogspot.com/2015/06/gulp-exluding-type-definitions-files.html
+Code samples for http://tpodolak.com/blog/2015/06/13/gulp-exluding-type-definitions-files-from-typescript-linting/
 
 To run the example
 ```bash

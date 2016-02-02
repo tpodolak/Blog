@@ -1,5 +1,5 @@
 Code samples for
-http://tomasz-net.blogspot.com/2012/07/extjs-411-multiselectable-datepicker.html
+http://tpodolak.com/blog/2012/07/19/extjs-4-1-1-multiselectable-datepicker/
 
 Before launching index.html run in commandline
 

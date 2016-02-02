@@ -1,5 +1,5 @@
 Code samples for
-http://tomasz-net.blogspot.com/2015/02/angularjs-extending-existing-services.html
+http://tpodolak.com/blog/2015/02/25/angularjs-extending-existing-services-using-decorator/
 
 To run the app
 ```bash

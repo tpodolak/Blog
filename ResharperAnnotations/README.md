@@ -1,1 +1,1 @@
-Code samples for http://tomasz-net.blogspot.com/2014/03/resharper-using-annotation-attributes.html
+Code samples for http://tpodolak.com/blog/2014/03/02/resharper-annotation-attributes/

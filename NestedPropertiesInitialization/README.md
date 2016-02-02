@@ -1,2 +1,2 @@
 Code samples for
-http://tomasz-net.blogspot.com/2015/04/nested-properties-initialization.html
+http://tpodolak.com/blog/2015/04/18/nested-properties-initialization-syntactic-sugar/

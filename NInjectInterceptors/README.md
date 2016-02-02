@@ -1,2 +1,2 @@
 Code samples for
-http://tomasz-net.blogspot.com/2012/10/en-argument-validation-with-attributes.html
+http://tpodolak.com/blog/2012/10/21/argument-validation-with-attributes-and-ninject-interceptor/

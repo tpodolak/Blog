@@ -1,2 +1,2 @@
 Code samples for
-http://tomasz-net.blogspot.com/2014/01/implementing-inotifypropertychanged.html
+http://tpodolak.com/blog/2014/01/19/implementing-inotifypropertychanged-without-lambda-expressions-and-magic-strings/
