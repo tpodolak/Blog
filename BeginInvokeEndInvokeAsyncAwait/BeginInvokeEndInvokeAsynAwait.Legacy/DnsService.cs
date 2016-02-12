@@ -10,7 +10,7 @@ namespace BeginInvokeEndInvokeAsynAwait.Legacy
             return Dns.BeginGetHostEntry(hostNameOrAddress, requestCallback, stateObject);
         }
 
-        public IPHostEntry EngGetHostEntry(IAsyncResult asyncResult)
+        public IPHostEntry EndGetHostEntry(IAsyncResult asyncResult)
         {
             return Dns.EndGetHostEntry(asyncResult);
         }
