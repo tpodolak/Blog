@@ -1,6 +1,8 @@
-﻿using System.Configuration;
+﻿using System;
+using System.Configuration;
 using System.Net;
 using System.ServiceModel;
+using System.Threading.Tasks;
 using MockingDownstreamServices.Facade;
 using NUnit.Framework;
 
@@ -16,6 +18,7 @@ namespace MockingDownstreamServices.Tests.Integration
         {
             this.serviceHost = new ServiceHost(typeof(BookingFacade));
             serviceHost.Open();
+
         }
 
         [TearDown]
@@ -25,8 +28,9 @@ namespace MockingDownstreamServices.Tests.Integration
         }
 
         [Test]
-        public void TestConnection()
+        public async Task TestConnection()
         {
+            await Task.Delay(TimeSpan.FromHours(1));
             using (var webClient = new WebClient())
             {
                 var resultString = webClient.DownloadString("http://localhost:8080/BookingFacade/Price");
