@@ -1,6 +1,6 @@
-﻿using MockingDownstreamServices.Pricer.Models;
+﻿using MockingDownstreamServices.Externals.Pricer.Models;
 
-namespace MockingDownstreamServices.Pricer.Service
+namespace MockingDownstreamServices.Externals.Pricer.Service
 {
     public interface IPricer
     {

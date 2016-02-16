@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MockingDownstreamServices.Externals.Pricer")]
+[assembly: AssemblyTitle("MockingDownstreamServices.Facade")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MockingDownstreamServices.Externals.Pricer")]
+[assembly: AssemblyProduct("MockingDownstreamServices.Facade")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("fa00ecb1-e0b8-477d-88f2-08dcacc586f7")]
+[assembly: Guid("b82bb7a0-4680-404a-892b-fad6f1803188")]
 
 // Version information for an assembly consists of the following four values:
 //

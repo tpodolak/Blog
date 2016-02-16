@@ -1,9 +1,9 @@
 ﻿using System.Configuration;
 using System.Net;
-using MockingDownstreamServices.Pricer.Models;
+using MockingDownstreamServices.Externals.Pricer.Models;
 using Newtonsoft.Json;
 
-namespace MockingDownstreamServices.Pricer.Service
+namespace MockingDownstreamServices.Externals.Pricer.Service
 {
     public class Pricer : IPricer
     {
@@ -11,7 +11,7 @@ namespace MockingDownstreamServices.Pricer.Service
         {
             using (var webClient = new WebClient())
             {
-                var result = webClient.DownloadString(ConfigurationManager.AppSettings["MockingDownstreamServices.Pricer.GetTradingDates"]);
+                var result = webClient.DownloadString(ConfigurationManager.AppSettings["MockingDownstreamServices.Externals.Pricer.GetTradingDates"]);
                 return JsonConvert.DeserializeObject<TradingDates>(result);
             }
         }
@@ -20,7 +20,7 @@ namespace MockingDownstreamServices.Pricer.Service
         {
             using (var webClient = new WebClient())
             {
-                var result = webClient.UploadString(ConfigurationManager.AppSettings["MockingDownstreamServices.Pricer.GetPrice"], JsonConvert.SerializeObject(request));
+                var result = webClient.UploadString(ConfigurationManager.AppSettings["MockingDownstreamServices.Externals.Pricer.GetPrice"], JsonConvert.SerializeObject(request));
                 return JsonConvert.DeserializeObject<Price>(result);
             }
         }

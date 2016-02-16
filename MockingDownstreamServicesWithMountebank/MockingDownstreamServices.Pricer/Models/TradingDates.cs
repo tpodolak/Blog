@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MockingDownstreamServices.Pricer.Models
+namespace MockingDownstreamServices.Externals.Pricer.Models
 {
     public class TradingDates
     {
