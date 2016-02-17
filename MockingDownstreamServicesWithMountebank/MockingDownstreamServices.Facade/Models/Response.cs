@@ -9,6 +9,7 @@ namespace MockingDownstreamServices.Facade.Models
         [DataMember]
         public T Result { get; set; }
 
+        [DataMember]
         public List<Message> Messages { get; set; }
 
         public Response()
