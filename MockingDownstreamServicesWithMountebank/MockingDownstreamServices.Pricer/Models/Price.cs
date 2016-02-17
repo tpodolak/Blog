@@ -2,6 +2,6 @@
 {
     public class Price
     {
-         
+         public double Strike { get; set; }
     }
 }

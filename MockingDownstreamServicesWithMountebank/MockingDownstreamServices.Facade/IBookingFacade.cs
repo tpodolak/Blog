@@ -8,7 +8,7 @@ namespace MockingDownstreamServices.Facade
     public interface IBookingFacade
     {
         [OperationContract]
-        [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, UriTemplate = "price")]
-        Price Price();
+        [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "price")]
+        Response<Price> Price(GetPriceRequest request);
     }
 }

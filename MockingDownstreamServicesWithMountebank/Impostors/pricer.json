@@ -1,0 +1,68 @@
+{
+  "port": 4545,
+  "protocol": "http",
+  "name": "pricer stub",
+  "stubs": [
+    {
+      "responses": [
+        {
+          "is": {
+            "body": {
+              "MaturityDate": "2016-02-17",
+              "SettlementDate": "2012-02-23"
+            }
+          }
+        }
+      ],
+      "predicates": [
+        {
+          "equals": {
+            "path": "/GetTradingDates",
+            "method": "GET"
+          },
+          "caseSensitive": false
+        }
+      ]
+    },
+    {
+      "responses": [
+        {
+          "is": {
+            "body": {
+              "Strike": "2"
+            }
+          }
+        }
+      ],
+      "predicates": [
+        {
+          "equals": {
+            "path": "/GetPrice",
+            "method": "POST",
+            "body": "{\"IsAdvised\":true}"
+          }
+        }
+      ]
+    },
+    {
+      "responses": [
+        {
+          "is": {
+            "body": {
+              "Strike": "1"
+            }
+          }
+        }
+      ],
+      "predicates": [
+        {
+          "equals": {
+            "path": "/GetPrice",
+            "method": "POST",
+            "body": "{\"IsAdvised\":false}"
+          }
+        }
+      ]
+    }
+  ]
+}

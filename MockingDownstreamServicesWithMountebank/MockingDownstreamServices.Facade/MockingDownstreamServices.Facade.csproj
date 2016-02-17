@@ -45,7 +45,11 @@
   <ItemGroup>
     <Compile Include="BookingFacade.cs" />
     <Compile Include="IBookingFacade.cs" />
+    <Compile Include="Models\GetPriceRequest.cs" />
+    <Compile Include="Models\Message.cs" />
     <Compile Include="Models\Price.cs" />
+    <Compile Include="Models\Response.cs" />
+    <Compile Include="Models\StatusCodes.cs" />
     <Compile Include="Models\TradingDates.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

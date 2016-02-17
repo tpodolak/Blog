@@ -2,6 +2,6 @@
 {
     public class GetPriceRequest
     {
-         
+         public bool IsAdvised { get; set; }
     }
 }
