@@ -2,6 +2,7 @@
 {
     public class Price
     {
-         public double Strike { get; set; }
+        public string Id { set; get; }
+        public double Strike { get; set; }
     }
 }

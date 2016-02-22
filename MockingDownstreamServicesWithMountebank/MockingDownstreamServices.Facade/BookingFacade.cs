@@ -15,7 +15,6 @@ namespace MockingDownstreamServices.Facade
             var pricerService = new Pricer();
             var response = new Response<Price>();
             double spot;
-
             try
             {
                 var tradingDates = pricerService.GetTradingDates();
@@ -38,7 +37,8 @@ namespace MockingDownstreamServices.Facade
                         MaturityDate = tradingDates.MaturityDate,
                         SettlementDate = tradingDates.SettlementDate
                     },
-                    Spot = spot
+                    Spot = spot,
+                    Id = price.Id
                 };
             }
             catch (Exception ex)

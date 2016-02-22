@@ -9,7 +9,7 @@ namespace MockingDownstreamServices.Facade.Models
         public TradingDates TradingDates { get; set; }
 
         [DataMember]
-        public string QuotaId { get; set; }
+        public string Id { get; set; }
 
         [DataMember]
         public double Strike { get; set; }

@@ -21,7 +21,6 @@ namespace MockingDownstreamServices.Tests.Integration
         {
             this.serviceHost = new ServiceHost(typeof(BookingFacade));
             serviceHost.Open();
-
         }
 
         [TearDown]
@@ -62,6 +61,16 @@ namespace MockingDownstreamServices.Tests.Integration
             Assert.IsNotNull(response);
             Assert.IsNotNull(response.Result);
             CollectionAssert.IsNotEmpty(response.Messages.Where(val => val.StatusCode == StatusCodes.Warning));
+        }
+
+        [Test]
+        public void CanSuccessfullyPriceTest()
+        {
+            var response = this.Price(new GetPriceRequest());
+            Assert.IsNotNull(response);
+            Assert.IsNotNull(response.Result);
+            Assert.IsFalse(string.IsNullOrWhiteSpace(response.Result.Id));
+            CollectionAssert.IsEmpty(response.Messages.Where(val => val.StatusCode == StatusCodes.Error));
         }
 
 
