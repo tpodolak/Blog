@@ -65,6 +65,26 @@
           }
         }
       ]
+    },
+    {
+      "responses": [
+        {
+          "is": {
+            "body": {
+              "Id": "default",
+              "Strike": "1"
+            }
+          }
+        }
+      ],
+      "predicates": [
+        {
+          "equals": {
+            "path": "/GetPrice",
+            "method": "POST"
+          }
+        }
+      ]
     }
   ]
 }
