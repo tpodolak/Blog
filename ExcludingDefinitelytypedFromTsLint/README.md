@@ -15,5 +15,5 @@ gulp buildwithoutfilter
 ```bash
 gulp buildwithfilter
 ```
-
+**Build status:** [![Build status](https://ci.appveyor.com/api/projects/status/2rep3lpat6dl4yyy?svg=true)](https://ci.appveyor.com/project/tpodolak/blog-y5gij)
 
