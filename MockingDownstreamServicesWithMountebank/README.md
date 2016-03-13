@@ -1,9 +1,1 @@
-Code samples for incoming blog post
-
-``
-npm install -g mountebank
-``
-
-``
-mb --configfile impostors.ejs --allowInjection
-``
+Code samples for http://tpodolak.com/blog/2016/02/25/mocking-downstream-services-mountebank/
