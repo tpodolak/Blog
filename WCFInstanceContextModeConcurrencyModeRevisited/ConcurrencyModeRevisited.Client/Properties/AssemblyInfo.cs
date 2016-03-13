@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WCFInstanceContextModeConcurrencyModeRevisited")]
+[assembly: AssemblyTitle("ConcurrencyModeRevisited.Client")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WCFInstanceContextModeConcurrencyModeRevisited")]
+[assembly: AssemblyProduct("ConcurrencyModeRevisited.Client")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6e09817b-ef17-4d07-af38-632279ff34ad")]
+[assembly: Guid("893363a8-f70e-4706-a3da-2a386fa21bab")]
 
 // Version information for an assembly consists of the following four values:
 //
