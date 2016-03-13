@@ -1,5 +1,0 @@
-﻿(function () {
-
-    angular.module('app', []);
-
-}());
