@@ -13,7 +13,7 @@ namespace EFAutoupgradeException
                 // launching this for the fist time works fine
                 // launching this after changing name/namespace of AutoupgradeExceptionMigrationConfiguration will throw SqlException
                 var users = context.ApiUsers.ToList();
-
+                Console.WriteLine("Done");
                 Console.ReadKey();
             }
         }

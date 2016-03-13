@@ -1,5 +1,4 @@
 ﻿using System.Data.Entity.Migrations;
-using EFAutoupgradeExceptions.Data;
 
 namespace EFAutoupgradeExceptions.Data
 {
