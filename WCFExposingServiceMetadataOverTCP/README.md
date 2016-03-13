@@ -1,2 +1,2 @@
 Code samples for
-http://tomasz-net.blogspot.com/2015/06/wcf-exposing-metadata-over-tcp.html
+http://tpodolak.com/blog/2015/06/28/wcf-exposing-metadata-over-tcp/
