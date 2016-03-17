@@ -10,6 +10,7 @@ node server.js
 Enter in browser
 ```bash
 127.0.0.1:3000
+```
 
 **Build status:** [![Build status](https://ci.appveyor.com/api/projects/status/e94y4t6iuarq3llt?svg=true)](https://ci.appveyor.com/project/tpodolak/blog-o6log)
 
