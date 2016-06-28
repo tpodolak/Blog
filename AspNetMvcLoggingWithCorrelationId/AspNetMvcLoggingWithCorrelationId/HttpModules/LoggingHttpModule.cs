@@ -24,7 +24,7 @@ namespace AspNetMvcLoggingWithCorrelationId.HttpModules
 			var httpApplication = (HttpApplication)sender;
 			var httpContext = httpApplication.Context;
 
-			Logger.Info($"Abount to start {httpContext.Request.HttpMethod} {httpContext.Request.RawUrl} request");
+			Logger.Info($"About to start {httpContext.Request.HttpMethod} {httpContext.Request.RawUrl} request");
 		}
 
 		private void HandleEndRequest(object sender, EventArgs e)

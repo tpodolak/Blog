@@ -1,5 +1,6 @@
 ﻿using System.Web;
 using System.Web.Mvc;
+using AspNetMvcLoggingWithCorrelationId.Filters;
 
 namespace AspNetMvcLoggingWithCorrelationId
 {
@@ -7,7 +8,7 @@ namespace AspNetMvcLoggingWithCorrelationId
 	{
 		public static void RegisterGlobalFilters(GlobalFilterCollection filters)
 		{
-			filters.Add(new HandleErrorAttribute());
+			filters.Add(new GlobalExceptionHandler());
 		}
 	}
 }
