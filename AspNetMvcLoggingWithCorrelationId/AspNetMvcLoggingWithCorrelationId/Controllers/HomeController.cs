@@ -41,7 +41,9 @@ namespace AspNetMvcLoggingWithCorrelationId.Controllers
 
 			Logger.Info($"Log from continuation from thread {Thread.CurrentThread.ManagedThreadId}");
 
-			new Thread(() => Logger.Info($"Log from explicitly created thread {Thread.CurrentThread.ManagedThreadId}")).Start();
+			var thread = new Thread(() => Logger.Info($"Log from explicitly created thread {Thread.CurrentThread.ManagedThreadId}"));
+			thread.Start();
+			thread.Join();
 		}
 	}
 }
