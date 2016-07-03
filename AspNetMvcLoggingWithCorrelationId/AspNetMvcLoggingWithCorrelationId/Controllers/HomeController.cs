@@ -36,12 +36,14 @@ namespace AspNetMvcLoggingWithCorrelationId.Controllers
 		{
 			Logger.Info($"Log from {actionName} action, from thread={Thread.CurrentThread.ManagedThreadId}");
 
-			await Task.Run(() => Logger.Info($"Log from thread assigned by scheduler {Thread.CurrentThread.ManagedThreadId}"))
-				.ConfigureAwait(continueOnCapturedContext: false);
+			await
+				Task.Run(() => Logger.Info($"Log from {actionName}, from thread {Thread.CurrentThread.ManagedThreadId} assigned by scheduler"))
+					.ConfigureAwait(continueOnCapturedContext: false);
 
-			Logger.Info($"Log from continuation from thread {Thread.CurrentThread.ManagedThreadId}");
+			Logger.Info($"Log from {actionName} action, from async continuation, from thread {Thread.CurrentThread.ManagedThreadId}");
 
-			var thread = new Thread(() => Logger.Info($"Log from explicitly created thread {Thread.CurrentThread.ManagedThreadId}"));
+			var thread =
+				new Thread(() => Logger.Info($"Log from {actionName} action, from explicitly created thread {Thread.CurrentThread.ManagedThreadId}"));
 			thread.Start();
 			thread.Join();
 		}
