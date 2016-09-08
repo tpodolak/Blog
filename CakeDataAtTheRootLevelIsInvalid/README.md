@@ -1,1 +1,1 @@
-Source files for incoming blog post
+Code samples for http://tpodolak.com/blog/2016/09/08/cake-data-root-level-invalid/
