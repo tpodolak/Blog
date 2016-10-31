@@ -1,0 +1,30 @@
+TimeStamp=2016-07-10 21:22:46.0079 CorrelationId=dc665fe7-9734-456a-92ba-3e1b522f5fd4 Level=INFO Message=About to start GET / request
+TimeStamp=2016-07-19 21:22:46.0080 CorrelationId=dc665fe7-9734-456a-92ba-3e1b522f5fd4 Level=INFO Message=About to start GET / request
+TimeStamp=2016-07-20 21:22:46.0081 CorrelationId=dc665fe7-9734-456a-92ba-3e1b522f5fd4 Level=INFO Message=About to start GET / request
+TimeStamp=2016-07-20 21:22:46.1919 CorrelationId=dc665fe7-9734-456a-92ba-3e1b522f5fd4 Level=INFO Message=Log from Index action, from thread=5
+TimeStamp=2016-07-20 21:22:46.1920 CorrelationId=dc665fe7-9734-456a-92ba-3e1b522f5fd4 Level=INFO Message=Log from Index, from thread 6 assigned by scheduler
+TimeStamp=2016-07-20 21:22:46.1921 CorrelationId=dc665fe7-9734-456a-92ba-3e1b522f5fd4 Level=INFO Message=Log from Index action, from async continuation, from thread 6
+TimeStamp=2016-07-20 21:22:46.2049 CorrelationId=dc665fe7-9734-456a-92ba-3e1b522f5fd4 Level=INFO Message=Log from Index action, from explicitly created thread 18
+TimeStamp=2016-07-20 21:22:49.0644 CorrelationId=dc665fe7-9734-456a-92ba-3e1b522f5fd4 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-07-20 21:22:50.4004 CorrelationId=14f2582b-9bae-4f3e-a6bb-71cbe0124897 Level=INFO Message=About to start GET /__browserLink/requestData/eca1953a34c14c199a8b754465e07308?version=2 request
+TimeStamp=2016-07-20 21:22:50.4224 CorrelationId=14f2582b-9bae-4f3e-a6bb-71cbe0124897 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-07-20 21:23:02.7975 CorrelationId=7c5ef3f6-1236-4e81-aeaa-a0f682ef1297 Level=INFO Message=About to start GET /Home/Contact request
+TimeStamp=2016-07-20 21:23:06.3235 CorrelationId=7c5ef3f6-1236-4e81-aeaa-a0f682ef1297 Level=INFO Message=Log from Contact action, from thread=5
+TimeStamp=2016-07-20 21:23:06.3236 CorrelationId=7c5ef3f6-1236-4e81-aeaa-a0f682ef1297 Level=INFO Message=Log from Contact, from thread 9 assigned by scheduler
+TimeStamp=2016-07-20 21:23:06.3307 CorrelationId=7c5ef3f6-1236-4e81-aeaa-a0f682ef1297 Level=INFO Message=Log from Contact action, from async continuation, from thread 9
+TimeStamp=2016-07-20 21:23:06.3305 CorrelationId=7c5ef3f6-1236-4e81-aeaa-a0f682ef1297 Level=INFO Message=Log from Contact action, from explicitly created thread 15
+TimeStamp=2016-07-20 21:23:06.4685 CorrelationId=7c5ef3f6-1236-4e81-aeaa-a0f682ef1297 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-07-20 21:23:07.2838 CorrelationId=5154e820-4376-496b-ba77-81e7184c83ad Level=INFO Message=About to start GET /__browserLink/requestData/a459f5b7010c4ba4a7245b1dc74042ce?version=2 request
+TimeStamp=2016-07-20 21:23:07.2837 CorrelationId=5154e820-4376-496b-ba77-81e7184c83ad Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-07-20 21:23:08.5635 CorrelationId=b6a8eca3-361d-45ce-9f4b-17a897815f5f Level=INFO Message=About to start GET /Home/About request
+TimeStamp=2016-07-20 21:23:09.1281 CorrelationId=b6a8eca3-361d-45ce-9f4b-17a897815f5f Level=INFO Message=Log from About action, from thread=5
+TimeStamp=2016-07-20 21:23:09.1282 CorrelationId=b6a8eca3-361d-45ce-9f4b-17a897815f5f Level=INFO Message=Log from About, from thread 6 assigned by scheduler
+TimeStamp=2016-07-20 21:23:09.1283 CorrelationId=b6a8eca3-361d-45ce-9f4b-17a897815f5f Level=INFO Message=Log from About action, from async continuation, from thread 6
+TimeStamp=2016-07-20 21:23:09.1421 CorrelationId=b6a8eca3-361d-45ce-9f4b-17a897815f5f Level=INFO Message=Log from About action, from explicitly created thread 14
+TimeStamp=2016-07-20 21:23:09.1422 CorrelationId=b6a8eca3-361d-45ce-9f4b-17a897815f5f Level=INFO Message=Log from About action, from explicitly created thread 14
+TimeStamp=2016-07-20 21:24:09.1423 CorrelationId=b6a8eca3-361d-45ce-9f4b-17a897815f5f Level=TRACE Message=Log from About action, from explicitly created thread 14
+TimeStamp=2016-07-20 21:25:09.1424 CorrelationId=b6a8eca3-361d-45ce-9f4b-17a897815f5f Level=TRACE Message=Log from About action, from explicitly created thread 14
+TimeStamp=2016-07-20 21:26:09.1425 CorrelationId=b6a8eca3-361d-45ce-9f4b-17a897815f5f Level=TRACE Message=Log from About action, from explicitly created thread 14
+TimeStamp=2016-07-20 22:26:09.1426 CorrelationId=b6a8eca3-361d-45ce-9f4b-17a897815f5f Level=ERROR Message=Unable to find a booking
+TimeStamp=2016-07-20 22:27:09.1621 CorrelationId=b6a8eca3-361d-45ce-9f4b-17a897815f5f Level=ERROR Message=Session expired
+TimeStamp=2016-07-21 22:30:09.1421 CorrelationId=b6a8eca3-361d-45ce-9f4b-17a897815f5f Level=FATAL Message=Unable to connect with external service
