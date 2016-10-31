@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Mvc;
@@ -10,7 +11,7 @@ namespace AspNetMvcLoggingWithCorrelationId.Controllers
 	{
 		private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
 
-		public async Task<ActionResult> Index()
+        public async Task<ActionResult> Index()
 		{
 			await PreprocessRequest(nameof(Index));
 
