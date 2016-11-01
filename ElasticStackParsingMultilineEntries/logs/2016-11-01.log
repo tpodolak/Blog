@@ -1,0 +1,590 @@
+TimeStamp=2016-11-01 00:12:58.5040 CorrelationId=77530786-8e6b-45c2-bbc1-31837d911c14 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 00:12:58.8524 CorrelationId=77530786-8e6b-45c2-bbc1-31837d911c14 Level=INFO Message=Log from Index action, from thread=8
+TimeStamp=2016-11-01 00:12:58.8574 CorrelationId=77530786-8e6b-45c2-bbc1-31837d911c14 Level=INFO Message=Log from Index, from thread 9 assigned by scheduler
+TimeStamp=2016-11-01 00:12:58.8574 CorrelationId=77530786-8e6b-45c2-bbc1-31837d911c14 Level=INFO Message=Log from Index action, from async continuation, from thread 9
+TimeStamp=2016-11-01 00:12:58.8789 CorrelationId=77530786-8e6b-45c2-bbc1-31837d911c14 Level=INFO Message=Log from Index action, from explicitly created thread 14
+TimeStamp=2016-11-01 00:13:01.1669 CorrelationId=77530786-8e6b-45c2-bbc1-31837d911c14 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 00:13:02.5734 CorrelationId=5d12c4fb-31fa-4e96-8879-829544fc48b8 Level=INFO Message=About to start GET /__browserLink/requestData/471da21eeff8475dbca677bbb705f5aa?version=2 request
+TimeStamp=2016-11-01 00:13:02.6304 CorrelationId=5d12c4fb-31fa-4e96-8879-829544fc48b8 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 00:14:10.5159 CorrelationId=c6c6e0b4-53d1-4112-94d8-f5e58af08d40 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 00:14:10.7441 CorrelationId=c6c6e0b4-53d1-4112-94d8-f5e58af08d40 Level=INFO Message=Log from Index action, from thread=8
+TimeStamp=2016-11-01 00:14:10.7511 CorrelationId=c6c6e0b4-53d1-4112-94d8-f5e58af08d40 Level=INFO Message=Log from Index, from thread 9 assigned by scheduler
+TimeStamp=2016-11-01 00:14:10.7511 CorrelationId=c6c6e0b4-53d1-4112-94d8-f5e58af08d40 Level=INFO Message=Log from Index action, from async continuation, from thread 9
+TimeStamp=2016-11-01 00:14:10.7691 CorrelationId=c6c6e0b4-53d1-4112-94d8-f5e58af08d40 Level=INFO Message=Log from Index action, from explicitly created thread 12
+TimeStamp=2016-11-01 00:14:13.4851 CorrelationId=c6c6e0b4-53d1-4112-94d8-f5e58af08d40 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 00:14:15.2399 CorrelationId=8339048b-4319-4534-92bb-5e61e72af6bc Level=INFO Message=About to start GET /__browserLink/requestData/fc79a40c27454da793ccabf51ab8edff?version=2 request
+TimeStamp=2016-11-01 00:14:15.3114 CorrelationId=8339048b-4319-4534-92bb-5e61e72af6bc Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:44:40.1653 CorrelationId=d06dde35-52a6-41f7-aa4a-8c9d34fa1b76 Level=INFO Message=About to start GET /Home/Contact request
+TimeStamp=2016-11-01 01:44:40.2078 CorrelationId=d06dde35-52a6-41f7-aa4a-8c9d34fa1b76 Level=INFO Message=Log from Contact action, from thread=9
+TimeStamp=2016-11-01 01:44:40.2078 CorrelationId=d06dde35-52a6-41f7-aa4a-8c9d34fa1b76 Level=INFO Message=Log from Contact, from thread 16 assigned by scheduler
+TimeStamp=2016-11-01 01:44:40.2184 CorrelationId=d06dde35-52a6-41f7-aa4a-8c9d34fa1b76 Level=INFO Message=Log from Contact action, from async continuation, from thread 16
+TimeStamp=2016-11-01 01:44:40.2184 CorrelationId=d06dde35-52a6-41f7-aa4a-8c9d34fa1b76 Level=INFO Message=Log from Contact action, from explicitly created thread 29
+TimeStamp=2016-11-01 01:44:40.2579 CorrelationId=d06dde35-52a6-41f7-aa4a-8c9d34fa1b76 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:44:41.6212 CorrelationId=a6ddbf23-b7e4-43dd-80d7-9e7cbe9bfafe Level=INFO Message=About to start GET /__browserLink/requestData/a881f0efe2174737b6cab7cbacc0b175?version=2 request
+TimeStamp=2016-11-01 01:44:41.6302 CorrelationId=a6ddbf23-b7e4-43dd-80d7-9e7cbe9bfafe Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:44:45.0942 CorrelationId=6005d2e7-67af-40c3-a894-2f6234dff4d6 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 01:44:45.0942 CorrelationId=6005d2e7-67af-40c3-a894-2f6234dff4d6 Level=INFO Message=Log from Index action, from thread=24
+TimeStamp=2016-11-01 01:44:45.0942 CorrelationId=6005d2e7-67af-40c3-a894-2f6234dff4d6 Level=INFO Message=Log from Index, from thread 18 assigned by scheduler
+TimeStamp=2016-11-01 01:44:45.1103 CorrelationId=6005d2e7-67af-40c3-a894-2f6234dff4d6 Level=INFO Message=Log from Index action, from async continuation, from thread 18
+TimeStamp=2016-11-01 01:44:45.1103 CorrelationId=6005d2e7-67af-40c3-a894-2f6234dff4d6 Level=INFO Message=Log from Index action, from explicitly created thread 30
+TimeStamp=2016-11-01 01:44:45.1278 CorrelationId=6005d2e7-67af-40c3-a894-2f6234dff4d6 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:44:45.8923 CorrelationId=8f8c38f1-5f7d-4835-9f7a-d7fc77ae7598 Level=INFO Message=About to start GET /__browserLink/requestData/afde978699d24b39be74b588cf3787e2?version=2 request
+TimeStamp=2016-11-01 01:44:45.8923 CorrelationId=8f8c38f1-5f7d-4835-9f7a-d7fc77ae7598 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:44:48.6292 CorrelationId=6b4607da-8a21-4592-bfc3-8a073d5a7b25 Level=INFO Message=About to start GET /Home/About request
+TimeStamp=2016-11-01 01:44:48.6292 CorrelationId=6b4607da-8a21-4592-bfc3-8a073d5a7b25 Level=INFO Message=Log from About action, from thread=24
+TimeStamp=2016-11-01 01:44:48.6407 CorrelationId=6b4607da-8a21-4592-bfc3-8a073d5a7b25 Level=INFO Message=Log from About, from thread 18 assigned by scheduler
+TimeStamp=2016-11-01 01:44:48.6407 CorrelationId=6b4607da-8a21-4592-bfc3-8a073d5a7b25 Level=INFO Message=Log from About action, from async continuation, from thread 18
+TimeStamp=2016-11-01 01:44:48.6407 CorrelationId=6b4607da-8a21-4592-bfc3-8a073d5a7b25 Level=INFO Message=Log from About action, from explicitly created thread 31
+TimeStamp=2016-11-01 01:44:48.8771 CorrelationId=6b4607da-8a21-4592-bfc3-8a073d5a7b25 Level=ERROR Message=System.InvalidOperationException: Operation is not valid due to the current state of the object.
+   at AspNetMvcLoggingWithCorrelationId.Controllers.HomeController.<About>d__2.MoveNext() in E:\Tomek\Programowanie\BlogSrc\AspNetMvcLoggingWithCorrelationId\AspNetMvcLoggingWithCorrelationId\Controllers\HomeController.cs:line 24
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+TimeStamp=2016-11-01 01:44:49.1797 CorrelationId=6b4607da-8a21-4592-bfc3-8a073d5a7b25 Level=INFO Message=Request completed with status code: 500 
+TimeStamp=2016-11-01 01:44:51.1890 CorrelationId=7ba5299a-3a07-4eb3-81c9-c4d3d814e5cf Level=INFO Message=About to start GET /Home/About request
+TimeStamp=2016-11-01 01:44:51.1890 CorrelationId=7ba5299a-3a07-4eb3-81c9-c4d3d814e5cf Level=INFO Message=Log from About action, from thread=24
+TimeStamp=2016-11-01 01:44:51.2045 CorrelationId=7ba5299a-3a07-4eb3-81c9-c4d3d814e5cf Level=INFO Message=Log from About, from thread 18 assigned by scheduler
+TimeStamp=2016-11-01 01:44:51.2045 CorrelationId=7ba5299a-3a07-4eb3-81c9-c4d3d814e5cf Level=INFO Message=Log from About action, from async continuation, from thread 18
+TimeStamp=2016-11-01 01:44:51.2195 CorrelationId=7ba5299a-3a07-4eb3-81c9-c4d3d814e5cf Level=INFO Message=Log from About action, from explicitly created thread 32
+TimeStamp=2016-11-01 01:44:51.2371 CorrelationId=7ba5299a-3a07-4eb3-81c9-c4d3d814e5cf Level=ERROR Message=System.InvalidOperationException: Operation is not valid due to the current state of the object.
+   at AspNetMvcLoggingWithCorrelationId.Controllers.HomeController.<About>d__2.MoveNext() in E:\Tomek\Programowanie\BlogSrc\AspNetMvcLoggingWithCorrelationId\AspNetMvcLoggingWithCorrelationId\Controllers\HomeController.cs:line 24
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+TimeStamp=2016-11-01 01:44:51.2371 CorrelationId=7ba5299a-3a07-4eb3-81c9-c4d3d814e5cf Level=INFO Message=Request completed with status code: 500 
+TimeStamp=2016-11-01 01:44:51.8990 CorrelationId=8846435f-89b3-4474-b1b0-4d5161b54489 Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 01:44:52.1196 CorrelationId=8846435f-89b3-4474-b1b0-4d5161b54489 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:53:48.3887 CorrelationId=412195e1-56a0-4362-8c70-44489861962c Level=INFO Message=About to start GET /Home/Contact request
+TimeStamp=2016-11-01 01:53:48.5142 CorrelationId=412195e1-56a0-4362-8c70-44489861962c Level=INFO Message=Log from Contact action, from thread=16
+TimeStamp=2016-11-01 01:53:48.5142 CorrelationId=412195e1-56a0-4362-8c70-44489861962c Level=INFO Message=Log from Contact, from thread 21 assigned by scheduler
+TimeStamp=2016-11-01 01:53:48.5142 CorrelationId=412195e1-56a0-4362-8c70-44489861962c Level=INFO Message=Log from Contact action, from async continuation, from thread 21
+TimeStamp=2016-11-01 01:53:48.5353 CorrelationId=412195e1-56a0-4362-8c70-44489861962c Level=INFO Message=Log from Contact action, from explicitly created thread 8
+TimeStamp=2016-11-01 01:53:48.7221 CorrelationId=412195e1-56a0-4362-8c70-44489861962c Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:53:54.2789 CorrelationId=47e1daca-5649-4820-8028-bb0119c0cfba Level=INFO Message=About to start GET /__browserLink/requestData/335146381cb44890ab3deb0f067e07ed?version=2 request
+TimeStamp=2016-11-01 01:53:54.3624 CorrelationId=47e1daca-5649-4820-8028-bb0119c0cfba Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:57:05.8033 CorrelationId=fd6a594f-2e1f-480a-8be8-690a41335a38 Level=INFO Message=About to start GET /Home/Contact request
+TimeStamp=2016-11-01 01:57:05.8133 CorrelationId=fd6a594f-2e1f-480a-8be8-690a41335a38 Level=INFO Message=Log from Contact action, from thread=16
+TimeStamp=2016-11-01 01:57:05.8133 CorrelationId=fd6a594f-2e1f-480a-8be8-690a41335a38 Level=INFO Message=Log from Contact, from thread 21 assigned by scheduler
+TimeStamp=2016-11-01 01:57:05.8263 CorrelationId=fd6a594f-2e1f-480a-8be8-690a41335a38 Level=INFO Message=Log from Contact action, from async continuation, from thread 21
+TimeStamp=2016-11-01 01:57:05.8263 CorrelationId=fd6a594f-2e1f-480a-8be8-690a41335a38 Level=INFO Message=Log from Contact action, from explicitly created thread 6
+TimeStamp=2016-11-01 01:57:05.8693 CorrelationId=fd6a594f-2e1f-480a-8be8-690a41335a38 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:57:06.7059 CorrelationId=77128248-79ea-48ae-ae10-bfc44e7fb14f Level=INFO Message=About to start GET /Home/Contact request
+TimeStamp=2016-11-01 01:57:06.7059 CorrelationId=77128248-79ea-48ae-ae10-bfc44e7fb14f Level=INFO Message=Log from Contact action, from thread=25
+TimeStamp=2016-11-01 01:57:06.7169 CorrelationId=77128248-79ea-48ae-ae10-bfc44e7fb14f Level=INFO Message=Log from Contact, from thread 9 assigned by scheduler
+TimeStamp=2016-11-01 01:57:06.7169 CorrelationId=77128248-79ea-48ae-ae10-bfc44e7fb14f Level=INFO Message=Log from Contact action, from async continuation, from thread 9
+TimeStamp=2016-11-01 01:57:06.7169 CorrelationId=77128248-79ea-48ae-ae10-bfc44e7fb14f Level=INFO Message=Log from Contact action, from explicitly created thread 14
+TimeStamp=2016-11-01 01:57:06.7399 CorrelationId=77128248-79ea-48ae-ae10-bfc44e7fb14f Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:57:06.7920 CorrelationId=d71322d7-8697-4284-9ffa-23df7ad091f8 Level=INFO Message=About to start GET /Home/Contact request
+TimeStamp=2016-11-01 01:57:06.8010 CorrelationId=d71322d7-8697-4284-9ffa-23df7ad091f8 Level=INFO Message=Log from Contact action, from thread=16
+TimeStamp=2016-11-01 01:57:06.8140 CorrelationId=d71322d7-8697-4284-9ffa-23df7ad091f8 Level=INFO Message=Log from Contact, from thread 25 assigned by scheduler
+TimeStamp=2016-11-01 01:57:06.8140 CorrelationId=d71322d7-8697-4284-9ffa-23df7ad091f8 Level=INFO Message=Log from Contact action, from async continuation, from thread 25
+TimeStamp=2016-11-01 01:57:06.8720 CorrelationId=d71322d7-8697-4284-9ffa-23df7ad091f8 Level=INFO Message=Log from Contact action, from explicitly created thread 22
+TimeStamp=2016-11-01 01:57:06.8882 CorrelationId=d71322d7-8697-4284-9ffa-23df7ad091f8 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:57:06.9765 CorrelationId=05085d64-e26d-4dff-ab4b-43cac44ec27a Level=INFO Message=About to start GET /Home/Contact request
+TimeStamp=2016-11-01 01:57:06.9825 CorrelationId=05085d64-e26d-4dff-ab4b-43cac44ec27a Level=INFO Message=Log from Contact action, from thread=21
+TimeStamp=2016-11-01 01:57:06.9825 CorrelationId=05085d64-e26d-4dff-ab4b-43cac44ec27a Level=INFO Message=Log from Contact, from thread 9 assigned by scheduler
+TimeStamp=2016-11-01 01:57:06.9825 CorrelationId=05085d64-e26d-4dff-ab4b-43cac44ec27a Level=INFO Message=Log from Contact action, from async continuation, from thread 9
+TimeStamp=2016-11-01 01:57:07.0245 CorrelationId=05085d64-e26d-4dff-ab4b-43cac44ec27a Level=INFO Message=Log from Contact action, from explicitly created thread 10
+TimeStamp=2016-11-01 01:57:07.0336 CorrelationId=05085d64-e26d-4dff-ab4b-43cac44ec27a Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:57:07.6569 CorrelationId=02939583-f2b5-4425-aa22-452c8223f260 Level=INFO Message=About to start GET /Home/Contact request
+TimeStamp=2016-11-01 01:57:07.6569 CorrelationId=02939583-f2b5-4425-aa22-452c8223f260 Level=INFO Message=Log from Contact action, from thread=16
+TimeStamp=2016-11-01 01:57:07.6719 CorrelationId=d47b6e7f-a364-4f05-a521-7b78ccb2146e Level=INFO Message=About to start GET /Home/Contact request
+TimeStamp=2016-11-01 01:57:07.6719 CorrelationId=02939583-f2b5-4425-aa22-452c8223f260 Level=INFO Message=Log from Contact, from thread 25 assigned by scheduler
+TimeStamp=2016-11-01 01:57:07.6999 CorrelationId=729db89b-c77b-442a-b34c-42453d877189 Level=INFO Message=About to start GET /Home/Contact request
+TimeStamp=2016-11-01 01:57:07.7169 CorrelationId=02939583-f2b5-4425-aa22-452c8223f260 Level=INFO Message=Log from Contact action, from async continuation, from thread 25
+TimeStamp=2016-11-01 01:57:07.7169 CorrelationId=729db89b-c77b-442a-b34c-42453d877189 Level=INFO Message=Log from Contact action, from thread=11
+TimeStamp=2016-11-01 01:57:07.7499 CorrelationId=729db89b-c77b-442a-b34c-42453d877189 Level=INFO Message=Log from Contact, from thread 16 assigned by scheduler
+TimeStamp=2016-11-01 01:57:07.7499 CorrelationId=729db89b-c77b-442a-b34c-42453d877189 Level=INFO Message=Log from Contact action, from async continuation, from thread 16
+TimeStamp=2016-11-01 01:57:07.7499 CorrelationId=d47b6e7f-a364-4f05-a521-7b78ccb2146e Level=INFO Message=Log from Contact action, from thread=21
+TimeStamp=2016-11-01 01:57:07.7499 CorrelationId=02939583-f2b5-4425-aa22-452c8223f260 Level=INFO Message=Log from Contact action, from explicitly created thread 20
+TimeStamp=2016-11-01 01:57:07.7660 CorrelationId=729db89b-c77b-442a-b34c-42453d877189 Level=INFO Message=Log from Contact action, from explicitly created thread 32
+TimeStamp=2016-11-01 01:57:07.7660 CorrelationId=d47b6e7f-a364-4f05-a521-7b78ccb2146e Level=INFO Message=Log from Contact, from thread 11 assigned by scheduler
+TimeStamp=2016-11-01 01:57:07.7810 CorrelationId=729db89b-c77b-442a-b34c-42453d877189 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:57:07.7810 CorrelationId=d47b6e7f-a364-4f05-a521-7b78ccb2146e Level=INFO Message=Log from Contact action, from async continuation, from thread 11
+TimeStamp=2016-11-01 01:57:07.7660 CorrelationId=02939583-f2b5-4425-aa22-452c8223f260 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:57:07.7950 CorrelationId=d47b6e7f-a364-4f05-a521-7b78ccb2146e Level=INFO Message=Log from Contact action, from explicitly created thread 33
+TimeStamp=2016-11-01 01:57:07.7810 CorrelationId=226ddfd9-540a-4c79-a351-f3a39b328894 Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 01:57:07.8780 CorrelationId=d47b6e7f-a364-4f05-a521-7b78ccb2146e Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:57:07.9291 CorrelationId=226ddfd9-540a-4c79-a351-f3a39b328894 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:57:08.0791 CorrelationId=2aefb3c5-e73c-4673-bce8-4624e48aac64 Level=INFO Message=About to start GET /Home/Contact request
+TimeStamp=2016-11-01 01:57:08.0951 CorrelationId=2aefb3c5-e73c-4673-bce8-4624e48aac64 Level=INFO Message=Log from Contact action, from thread=9
+TimeStamp=2016-11-01 01:57:08.0951 CorrelationId=2aefb3c5-e73c-4673-bce8-4624e48aac64 Level=INFO Message=Log from Contact, from thread 8 assigned by scheduler
+TimeStamp=2016-11-01 01:57:08.0951 CorrelationId=2aefb3c5-e73c-4673-bce8-4624e48aac64 Level=INFO Message=Log from Contact action, from async continuation, from thread 8
+TimeStamp=2016-11-01 01:57:08.1111 CorrelationId=2aefb3c5-e73c-4673-bce8-4624e48aac64 Level=INFO Message=Log from Contact action, from explicitly created thread 34
+TimeStamp=2016-11-01 01:57:08.1111 CorrelationId=2aefb3c5-e73c-4673-bce8-4624e48aac64 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:57:08.7826 CorrelationId=974e83e1-cdfd-42a0-910b-adae730cd701 Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 01:57:08.7826 CorrelationId=974e83e1-cdfd-42a0-910b-adae730cd701 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:57:09.1942 CorrelationId=320f6abb-22f2-4f20-b816-bf703c40950f Level=INFO Message=About to start GET /__browserLink/requestData/ac297b472def4c89b670049a0846374a?version=2 request
+TimeStamp=2016-11-01 01:57:09.2022 CorrelationId=320f6abb-22f2-4f20-b816-bf703c40950f Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:57:13.7795 CorrelationId=de487ef4-0092-4567-8490-266aceeb096a Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 01:57:13.7795 CorrelationId=de487ef4-0092-4567-8490-266aceeb096a Level=INFO Message=Log from Index action, from thread=21
+TimeStamp=2016-11-01 01:57:13.7795 CorrelationId=de487ef4-0092-4567-8490-266aceeb096a Level=INFO Message=Log from Index, from thread 25 assigned by scheduler
+TimeStamp=2016-11-01 01:57:13.7795 CorrelationId=de487ef4-0092-4567-8490-266aceeb096a Level=INFO Message=Log from Index action, from async continuation, from thread 25
+TimeStamp=2016-11-01 01:57:13.8676 CorrelationId=de487ef4-0092-4567-8490-266aceeb096a Level=INFO Message=Log from Index action, from explicitly created thread 35
+TimeStamp=2016-11-01 01:57:13.8766 CorrelationId=de487ef4-0092-4567-8490-266aceeb096a Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 01:57:14.6753 CorrelationId=6a43d893-68be-4678-b0e4-b653c79cd0d4 Level=INFO Message=About to start GET /__browserLink/requestData/b5502633c8b84a528b0d09f0e6b669ac?version=2 request
+TimeStamp=2016-11-01 01:57:14.7084 CorrelationId=6a43d893-68be-4678-b0e4-b653c79cd0d4 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:02:03.3802 CorrelationId=14b01a8a-d4da-429b-83db-bca323a16b76 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:02:03.3802 CorrelationId=14b01a8a-d4da-429b-83db-bca323a16b76 Level=INFO Message=Log from Index action, from thread=39
+TimeStamp=2016-11-01 02:02:03.3922 CorrelationId=14b01a8a-d4da-429b-83db-bca323a16b76 Level=INFO Message=Log from Index, from thread 11 assigned by scheduler
+TimeStamp=2016-11-01 02:02:03.3922 CorrelationId=14b01a8a-d4da-429b-83db-bca323a16b76 Level=INFO Message=Log from Index action, from async continuation, from thread 11
+TimeStamp=2016-11-01 02:02:03.4042 CorrelationId=14b01a8a-d4da-429b-83db-bca323a16b76 Level=INFO Message=Log from Index action, from explicitly created thread 35
+TimeStamp=2016-11-01 02:02:03.4042 CorrelationId=14b01a8a-d4da-429b-83db-bca323a16b76 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:02:04.4389 CorrelationId=53c3aad7-d643-4a61-b7db-152560c25286 Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 02:02:04.4389 CorrelationId=53c3aad7-d643-4a61-b7db-152560c25286 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:02:04.5760 CorrelationId=bed9bc36-0dbc-4f8a-bdce-2968594f38be Level=INFO Message=About to start GET /__browserLink/requestData/776bafa07e1b4aa4916cde1f7eab030e?version=2 request
+TimeStamp=2016-11-01 02:02:04.5850 CorrelationId=bed9bc36-0dbc-4f8a-bdce-2968594f38be Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:02:04.6520 CorrelationId=ac13d410-5878-42b5-995d-d80a2dc16ed0 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:02:04.6580 CorrelationId=ac13d410-5878-42b5-995d-d80a2dc16ed0 Level=INFO Message=Log from Index action, from thread=16
+TimeStamp=2016-11-01 02:02:04.6580 CorrelationId=ac13d410-5878-42b5-995d-d80a2dc16ed0 Level=INFO Message=Log from Index, from thread 21 assigned by scheduler
+TimeStamp=2016-11-01 02:02:04.6580 CorrelationId=ac13d410-5878-42b5-995d-d80a2dc16ed0 Level=INFO Message=Log from Index action, from async continuation, from thread 21
+TimeStamp=2016-11-01 02:02:04.6765 CorrelationId=ac13d410-5878-42b5-995d-d80a2dc16ed0 Level=INFO Message=Log from Index action, from explicitly created thread 34
+TimeStamp=2016-11-01 02:02:04.6765 CorrelationId=ac13d410-5878-42b5-995d-d80a2dc16ed0 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:02:05.3160 CorrelationId=aa8d0f20-94d4-4e64-8a21-b2c0b130026c Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 02:02:05.3160 CorrelationId=aa8d0f20-94d4-4e64-8a21-b2c0b130026c Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:02:05.5066 CorrelationId=19713b75-3dcf-4ce1-88a8-dddd216512a1 Level=INFO Message=About to start GET /__browserLink/requestData/1e6646dc0d0f410aa667ba03f6b5c1d9?version=2 request
+TimeStamp=2016-11-01 02:02:05.5146 CorrelationId=19713b75-3dcf-4ce1-88a8-dddd216512a1 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:02:05.6889 CorrelationId=27beb58e-459f-4f47-9ab8-4e6ed6983305 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:02:05.6889 CorrelationId=27beb58e-459f-4f47-9ab8-4e6ed6983305 Level=INFO Message=Log from Index action, from thread=16
+TimeStamp=2016-11-01 02:02:05.6889 CorrelationId=27beb58e-459f-4f47-9ab8-4e6ed6983305 Level=INFO Message=Log from Index, from thread 21 assigned by scheduler
+TimeStamp=2016-11-01 02:02:05.7045 CorrelationId=27beb58e-459f-4f47-9ab8-4e6ed6983305 Level=INFO Message=Log from Index action, from async continuation, from thread 21
+TimeStamp=2016-11-01 02:02:05.7045 CorrelationId=27beb58e-459f-4f47-9ab8-4e6ed6983305 Level=INFO Message=Log from Index action, from explicitly created thread 33
+TimeStamp=2016-11-01 02:02:05.7175 CorrelationId=27beb58e-459f-4f47-9ab8-4e6ed6983305 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:02:06.1983 CorrelationId=6b3f5546-43b0-4634-8bae-ca4b6dcc9bcf Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 02:02:06.2043 CorrelationId=6b3f5546-43b0-4634-8bae-ca4b6dcc9bcf Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:02:06.4156 CorrelationId=8daf2324-887e-4119-a103-f6e8369ea92f Level=INFO Message=About to start GET /__browserLink/requestData/042a036546bf424c9fec8c7042c8fe48?version=2 request
+TimeStamp=2016-11-01 02:02:06.4231 CorrelationId=8daf2324-887e-4119-a103-f6e8369ea92f Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:02:06.6221 CorrelationId=77afb335-d49c-4e1c-aaa6-7eebdafb65e3 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:02:06.6276 CorrelationId=77afb335-d49c-4e1c-aaa6-7eebdafb65e3 Level=INFO Message=Log from Index action, from thread=21
+TimeStamp=2016-11-01 02:02:06.6276 CorrelationId=77afb335-d49c-4e1c-aaa6-7eebdafb65e3 Level=INFO Message=Log from Index, from thread 25 assigned by scheduler
+TimeStamp=2016-11-01 02:02:06.6276 CorrelationId=77afb335-d49c-4e1c-aaa6-7eebdafb65e3 Level=INFO Message=Log from Index action, from async continuation, from thread 25
+TimeStamp=2016-11-01 02:02:06.6431 CorrelationId=77afb335-d49c-4e1c-aaa6-7eebdafb65e3 Level=INFO Message=Log from Index action, from explicitly created thread 32
+TimeStamp=2016-11-01 02:02:06.6431 CorrelationId=77afb335-d49c-4e1c-aaa6-7eebdafb65e3 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:02:07.1357 CorrelationId=aff95cb6-8a9d-455f-91f7-7b49b8e1547e Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 02:02:07.1407 CorrelationId=aff95cb6-8a9d-455f-91f7-7b49b8e1547e Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:02:07.3154 CorrelationId=5a6634fa-7873-4e70-be38-11130944998c Level=INFO Message=About to start GET /__browserLink/requestData/6c04a095c8484dc9911bd84a3b42ed26?version=2 request
+TimeStamp=2016-11-01 02:02:07.3154 CorrelationId=5a6634fa-7873-4e70-be38-11130944998c Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:14.3513 CorrelationId=156ae055-f216-4e96-b6e1-0814ff797d8c Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:04:14.3574 CorrelationId=156ae055-f216-4e96-b6e1-0814ff797d8c Level=INFO Message=Log from Index action, from thread=30
+TimeStamp=2016-11-01 02:04:14.3574 CorrelationId=156ae055-f216-4e96-b6e1-0814ff797d8c Level=INFO Message=Log from Index, from thread 29 assigned by scheduler
+TimeStamp=2016-11-01 02:04:14.3574 CorrelationId=156ae055-f216-4e96-b6e1-0814ff797d8c Level=INFO Message=Log from Index action, from async continuation, from thread 29
+TimeStamp=2016-11-01 02:04:14.3574 CorrelationId=156ae055-f216-4e96-b6e1-0814ff797d8c Level=INFO Message=Log from Index action, from explicitly created thread 20
+TimeStamp=2016-11-01 02:04:14.3814 CorrelationId=156ae055-f216-4e96-b6e1-0814ff797d8c Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:15.1209 CorrelationId=721fe57c-2058-49a7-aa99-a36e6ccd8d03 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:04:15.1269 CorrelationId=46c5fc8a-ab69-4b6d-846d-513486a86126 Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 02:04:15.1269 CorrelationId=721fe57c-2058-49a7-aa99-a36e6ccd8d03 Level=INFO Message=Log from Index action, from thread=25
+TimeStamp=2016-11-01 02:04:15.1269 CorrelationId=46c5fc8a-ab69-4b6d-846d-513486a86126 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:15.1449 CorrelationId=721fe57c-2058-49a7-aa99-a36e6ccd8d03 Level=INFO Message=Log from Index, from thread 30 assigned by scheduler
+TimeStamp=2016-11-01 02:04:15.1269 CorrelationId=6f4fc34b-1630-47a8-a2de-e46bc161f96a Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:04:15.1449 CorrelationId=5dccc64b-3113-45a2-aba5-7cd385cf119b Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:04:15.1559 CorrelationId=721fe57c-2058-49a7-aa99-a36e6ccd8d03 Level=INFO Message=Log from Index action, from async continuation, from thread 30
+TimeStamp=2016-11-01 02:04:15.1559 CorrelationId=5dccc64b-3113-45a2-aba5-7cd385cf119b Level=INFO Message=Log from Index action, from thread=31
+TimeStamp=2016-11-01 02:04:15.1769 CorrelationId=5dccc64b-3113-45a2-aba5-7cd385cf119b Level=INFO Message=Log from Index, from thread 9 assigned by scheduler
+TimeStamp=2016-11-01 02:04:15.2199 CorrelationId=721fe57c-2058-49a7-aa99-a36e6ccd8d03 Level=INFO Message=Log from Index action, from explicitly created thread 10
+TimeStamp=2016-11-01 02:04:15.2199 CorrelationId=5dccc64b-3113-45a2-aba5-7cd385cf119b Level=INFO Message=Log from Index action, from async continuation, from thread 9
+TimeStamp=2016-11-01 02:04:15.2199 CorrelationId=6f4fc34b-1630-47a8-a2de-e46bc161f96a Level=INFO Message=Log from Index action, from thread=8
+TimeStamp=2016-11-01 02:04:15.2339 CorrelationId=5dccc64b-3113-45a2-aba5-7cd385cf119b Level=INFO Message=Log from Index action, from explicitly created thread 22
+TimeStamp=2016-11-01 02:04:15.2199 CorrelationId=721fe57c-2058-49a7-aa99-a36e6ccd8d03 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:15.2339 CorrelationId=6f4fc34b-1630-47a8-a2de-e46bc161f96a Level=INFO Message=Log from Index, from thread 11 assigned by scheduler
+TimeStamp=2016-11-01 02:04:15.2580 CorrelationId=6f4fc34b-1630-47a8-a2de-e46bc161f96a Level=INFO Message=Log from Index action, from async continuation, from thread 11
+TimeStamp=2016-11-01 02:04:15.2580 CorrelationId=5dccc64b-3113-45a2-aba5-7cd385cf119b Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:15.2660 CorrelationId=6f4fc34b-1630-47a8-a2de-e46bc161f96a Level=INFO Message=Log from Index action, from explicitly created thread 14
+TimeStamp=2016-11-01 02:04:15.2660 CorrelationId=6f4fc34b-1630-47a8-a2de-e46bc161f96a Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:15.6402 CorrelationId=9bc48641-4892-4707-936f-356a36ea1c0b Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:04:15.6402 CorrelationId=9bc48641-4892-4707-936f-356a36ea1c0b Level=INFO Message=Log from Index action, from thread=21
+TimeStamp=2016-11-01 02:04:15.6402 CorrelationId=9bc48641-4892-4707-936f-356a36ea1c0b Level=INFO Message=Log from Index, from thread 25 assigned by scheduler
+TimeStamp=2016-11-01 02:04:15.6552 CorrelationId=9bc48641-4892-4707-936f-356a36ea1c0b Level=INFO Message=Log from Index action, from async continuation, from thread 25
+TimeStamp=2016-11-01 02:04:15.6552 CorrelationId=9bc48641-4892-4707-936f-356a36ea1c0b Level=INFO Message=Log from Index action, from explicitly created thread 6
+TimeStamp=2016-11-01 02:04:15.6702 CorrelationId=9bc48641-4892-4707-936f-356a36ea1c0b Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:16.2114 CorrelationId=5dea9bc9-b258-44db-90ae-e9fd368f975b Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:04:16.2184 CorrelationId=5dea9bc9-b258-44db-90ae-e9fd368f975b Level=INFO Message=Log from Index action, from thread=16
+TimeStamp=2016-11-01 02:04:16.2184 CorrelationId=5dea9bc9-b258-44db-90ae-e9fd368f975b Level=INFO Message=Log from Index, from thread 21 assigned by scheduler
+TimeStamp=2016-11-01 02:04:16.2184 CorrelationId=5dea9bc9-b258-44db-90ae-e9fd368f975b Level=INFO Message=Log from Index action, from async continuation, from thread 21
+TimeStamp=2016-11-01 02:04:16.2384 CorrelationId=5dea9bc9-b258-44db-90ae-e9fd368f975b Level=INFO Message=Log from Index action, from explicitly created thread 28
+TimeStamp=2016-11-01 02:04:16.2384 CorrelationId=5dea9bc9-b258-44db-90ae-e9fd368f975b Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:16.2804 CorrelationId=c4b86a06-3e35-4bc0-96c8-04409dc08492 Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 02:04:16.2804 CorrelationId=65efeeae-e712-4c16-840e-184a88ac3056 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:04:16.2804 CorrelationId=c4b86a06-3e35-4bc0-96c8-04409dc08492 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:16.2954 CorrelationId=e2963b55-8a66-4f62-b426-e5d16bdda682 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:04:16.2954 CorrelationId=65efeeae-e712-4c16-840e-184a88ac3056 Level=INFO Message=Log from Index action, from thread=21
+TimeStamp=2016-11-01 02:04:16.3134 CorrelationId=65efeeae-e712-4c16-840e-184a88ac3056 Level=INFO Message=Log from Index, from thread 31 assigned by scheduler
+TimeStamp=2016-11-01 02:04:16.2954 CorrelationId=e2963b55-8a66-4f62-b426-e5d16bdda682 Level=INFO Message=Log from Index action, from thread=25
+TimeStamp=2016-11-01 02:04:16.3134 CorrelationId=e2963b55-8a66-4f62-b426-e5d16bdda682 Level=INFO Message=Log from Index, from thread 11 assigned by scheduler
+TimeStamp=2016-11-01 02:04:16.3324 CorrelationId=e2963b55-8a66-4f62-b426-e5d16bdda682 Level=INFO Message=Log from Index action, from async continuation, from thread 11
+TimeStamp=2016-11-01 02:04:16.3134 CorrelationId=65efeeae-e712-4c16-840e-184a88ac3056 Level=INFO Message=Log from Index action, from async continuation, from thread 31
+TimeStamp=2016-11-01 02:04:16.3324 CorrelationId=e2963b55-8a66-4f62-b426-e5d16bdda682 Level=INFO Message=Log from Index action, from explicitly created thread 17
+TimeStamp=2016-11-01 02:04:16.3465 CorrelationId=65efeeae-e712-4c16-840e-184a88ac3056 Level=INFO Message=Log from Index action, from explicitly created thread 13
+TimeStamp=2016-11-01 02:04:16.3465 CorrelationId=e2963b55-8a66-4f62-b426-e5d16bdda682 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:16.3645 CorrelationId=65efeeae-e712-4c16-840e-184a88ac3056 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:16.7597 CorrelationId=3688e484-b353-486b-9f69-a7d61e84d1bf Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:04:16.7667 CorrelationId=3688e484-b353-486b-9f69-a7d61e84d1bf Level=INFO Message=Log from Index action, from thread=9
+TimeStamp=2016-11-01 02:04:16.7667 CorrelationId=3688e484-b353-486b-9f69-a7d61e84d1bf Level=INFO Message=Log from Index, from thread 8 assigned by scheduler
+TimeStamp=2016-11-01 02:04:16.7667 CorrelationId=3688e484-b353-486b-9f69-a7d61e84d1bf Level=INFO Message=Log from Index action, from async continuation, from thread 8
+TimeStamp=2016-11-01 02:04:16.7858 CorrelationId=3688e484-b353-486b-9f69-a7d61e84d1bf Level=INFO Message=Log from Index action, from explicitly created thread 12
+TimeStamp=2016-11-01 02:04:16.7858 CorrelationId=3688e484-b353-486b-9f69-a7d61e84d1bf Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:16.8538 CorrelationId=71764233-2bf4-4765-87c8-50eff76f6102 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:04:16.8608 CorrelationId=71764233-2bf4-4765-87c8-50eff76f6102 Level=INFO Message=Log from Index action, from thread=16
+TimeStamp=2016-11-01 02:04:16.8608 CorrelationId=71764233-2bf4-4765-87c8-50eff76f6102 Level=INFO Message=Log from Index, from thread 21 assigned by scheduler
+TimeStamp=2016-11-01 02:04:16.8778 CorrelationId=71764233-2bf4-4765-87c8-50eff76f6102 Level=INFO Message=Log from Index action, from async continuation, from thread 21
+TimeStamp=2016-11-01 02:04:16.8908 CorrelationId=71764233-2bf4-4765-87c8-50eff76f6102 Level=INFO Message=Log from Index action, from explicitly created thread 5
+TimeStamp=2016-11-01 02:04:16.8908 CorrelationId=aeef4a61-fbb3-4d5a-a975-7df473a5a8e7 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:04:16.9048 CorrelationId=71764233-2bf4-4765-87c8-50eff76f6102 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:16.9048 CorrelationId=aeef4a61-fbb3-4d5a-a975-7df473a5a8e7 Level=INFO Message=Log from Index action, from thread=11
+TimeStamp=2016-11-01 02:04:16.9258 CorrelationId=aeef4a61-fbb3-4d5a-a975-7df473a5a8e7 Level=INFO Message=Log from Index, from thread 8 assigned by scheduler
+TimeStamp=2016-11-01 02:04:16.9619 CorrelationId=aeef4a61-fbb3-4d5a-a975-7df473a5a8e7 Level=INFO Message=Log from Index action, from async continuation, from thread 8
+TimeStamp=2016-11-01 02:04:16.9689 CorrelationId=aeef4a61-fbb3-4d5a-a975-7df473a5a8e7 Level=INFO Message=Log from Index action, from explicitly created thread 15
+TimeStamp=2016-11-01 02:04:16.9869 CorrelationId=aeef4a61-fbb3-4d5a-a975-7df473a5a8e7 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:17.2711 CorrelationId=f3cd7d34-53ba-4ca1-a678-012ec1c9f56e Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:04:17.2711 CorrelationId=f3cd7d34-53ba-4ca1-a678-012ec1c9f56e Level=INFO Message=Log from Index action, from thread=16
+TimeStamp=2016-11-01 02:04:17.2841 CorrelationId=f3cd7d34-53ba-4ca1-a678-012ec1c9f56e Level=INFO Message=Log from Index, from thread 21 assigned by scheduler
+TimeStamp=2016-11-01 02:04:17.2841 CorrelationId=f3cd7d34-53ba-4ca1-a678-012ec1c9f56e Level=INFO Message=Log from Index action, from async continuation, from thread 21
+TimeStamp=2016-11-01 02:04:17.2971 CorrelationId=f3cd7d34-53ba-4ca1-a678-012ec1c9f56e Level=INFO Message=Log from Index action, from explicitly created thread 23
+TimeStamp=2016-11-01 02:04:17.2971 CorrelationId=f3cd7d34-53ba-4ca1-a678-012ec1c9f56e Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:17.8385 CorrelationId=fd38680d-4d25-47ef-9e52-92778bca6632 Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 02:04:18.0756 CorrelationId=fd38680d-4d25-47ef-9e52-92778bca6632 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:04:18.1497 CorrelationId=dc2ad440-69fb-468e-bc4e-54ce06191e58 Level=INFO Message=About to start GET /__browserLink/requestData/e8e7ede0122d4271a6062ed2ed7a18e2?version=2 request
+TimeStamp=2016-11-01 02:04:18.1647 CorrelationId=dc2ad440-69fb-468e-bc4e-54ce06191e58 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:31.5067 CorrelationId=dbca00d6-68c6-4cbe-842d-3c00109dbe47 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:31.5067 CorrelationId=dbca00d6-68c6-4cbe-842d-3c00109dbe47 Level=INFO Message=Log from Index action, from thread=9
+TimeStamp=2016-11-01 02:05:31.5167 CorrelationId=dbca00d6-68c6-4cbe-842d-3c00109dbe47 Level=INFO Message=Log from Index, from thread 8 assigned by scheduler
+TimeStamp=2016-11-01 02:05:31.5167 CorrelationId=dbca00d6-68c6-4cbe-842d-3c00109dbe47 Level=INFO Message=Log from Index action, from async continuation, from thread 8
+TimeStamp=2016-11-01 02:05:31.5167 CorrelationId=dbca00d6-68c6-4cbe-842d-3c00109dbe47 Level=INFO Message=Log from Index action, from explicitly created thread 24
+TimeStamp=2016-11-01 02:05:31.5968 CorrelationId=dbca00d6-68c6-4cbe-842d-3c00109dbe47 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:32.4033 CorrelationId=b368fa75-ae89-4fed-bf57-9002beadabe4 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:32.4543 CorrelationId=5f9860a4-3e8f-4989-8e9f-b61350197aa2 Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 02:05:32.6094 CorrelationId=b368fa75-ae89-4fed-bf57-9002beadabe4 Level=INFO Message=Log from Index action, from thread=11
+TimeStamp=2016-11-01 02:05:32.6094 CorrelationId=9365219f-1e76-4cbb-ba9a-c6e74d0afa62 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:32.6094 CorrelationId=5f9860a4-3e8f-4989-8e9f-b61350197aa2 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:32.6285 CorrelationId=b368fa75-ae89-4fed-bf57-9002beadabe4 Level=INFO Message=Log from Index, from thread 9 assigned by scheduler
+TimeStamp=2016-11-01 02:05:32.6495 CorrelationId=b368fa75-ae89-4fed-bf57-9002beadabe4 Level=INFO Message=Log from Index action, from async continuation, from thread 9
+TimeStamp=2016-11-01 02:05:32.6285 CorrelationId=9365219f-1e76-4cbb-ba9a-c6e74d0afa62 Level=INFO Message=Log from Index action, from thread=25
+TimeStamp=2016-11-01 02:05:32.6575 CorrelationId=b368fa75-ae89-4fed-bf57-9002beadabe4 Level=INFO Message=Log from Index action, from explicitly created thread 18
+TimeStamp=2016-11-01 02:05:32.6575 CorrelationId=9365219f-1e76-4cbb-ba9a-c6e74d0afa62 Level=INFO Message=Log from Index, from thread 11 assigned by scheduler
+TimeStamp=2016-11-01 02:05:32.6725 CorrelationId=b368fa75-ae89-4fed-bf57-9002beadabe4 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:32.6725 CorrelationId=9365219f-1e76-4cbb-ba9a-c6e74d0afa62 Level=INFO Message=Log from Index action, from async continuation, from thread 11
+TimeStamp=2016-11-01 02:05:32.7275 CorrelationId=9365219f-1e76-4cbb-ba9a-c6e74d0afa62 Level=INFO Message=Log from Index action, from explicitly created thread 42
+TimeStamp=2016-11-01 02:05:32.7275 CorrelationId=20660207-8b5d-44ae-8cf6-ff2ba613b862 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:32.7425 CorrelationId=20660207-8b5d-44ae-8cf6-ff2ba613b862 Level=INFO Message=Log from Index action, from thread=16
+TimeStamp=2016-11-01 02:05:32.7495 CorrelationId=20660207-8b5d-44ae-8cf6-ff2ba613b862 Level=INFO Message=Log from Index, from thread 31 assigned by scheduler
+TimeStamp=2016-11-01 02:05:32.7495 CorrelationId=20660207-8b5d-44ae-8cf6-ff2ba613b862 Level=INFO Message=Log from Index action, from async continuation, from thread 31
+TimeStamp=2016-11-01 02:05:32.7495 CorrelationId=9365219f-1e76-4cbb-ba9a-c6e74d0afa62 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:32.7705 CorrelationId=20660207-8b5d-44ae-8cf6-ff2ba613b862 Level=INFO Message=Log from Index action, from explicitly created thread 43
+TimeStamp=2016-11-01 02:05:32.7495 CorrelationId=560cd01f-54f2-4dff-a55a-188c4ef471ae Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:32.8506 CorrelationId=e7e0a541-a40c-45d6-a0fc-c69e48da9c43 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:32.8506 CorrelationId=560cd01f-54f2-4dff-a55a-188c4ef471ae Level=INFO Message=Log from Index action, from thread=11
+TimeStamp=2016-11-01 02:05:32.8626 CorrelationId=560cd01f-54f2-4dff-a55a-188c4ef471ae Level=INFO Message=Log from Index, from thread 37 assigned by scheduler
+TimeStamp=2016-11-01 02:05:32.8506 CorrelationId=cea7b5de-8abe-4699-b919-bd2c9b7737e3 Level=INFO Message=About to start GET /__browserLink/requestData/320af413bbfe41ce9102d062aaed3cd7?version=2 request
+TimeStamp=2016-11-01 02:05:32.8506 CorrelationId=20660207-8b5d-44ae-8cf6-ff2ba613b862 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:32.8506 CorrelationId=e7e0a541-a40c-45d6-a0fc-c69e48da9c43 Level=INFO Message=Log from Index action, from thread=9
+TimeStamp=2016-11-01 02:05:32.8626 CorrelationId=560cd01f-54f2-4dff-a55a-188c4ef471ae Level=INFO Message=Log from Index action, from async continuation, from thread 37
+TimeStamp=2016-11-01 02:05:32.8766 CorrelationId=e7e0a541-a40c-45d6-a0fc-c69e48da9c43 Level=INFO Message=Log from Index, from thread 11 assigned by scheduler
+TimeStamp=2016-11-01 02:05:32.8766 CorrelationId=cea7b5de-8abe-4699-b919-bd2c9b7737e3 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:32.8906 CorrelationId=560cd01f-54f2-4dff-a55a-188c4ef471ae Level=INFO Message=Log from Index action, from explicitly created thread 42
+TimeStamp=2016-11-01 02:05:32.8906 CorrelationId=e7e0a541-a40c-45d6-a0fc-c69e48da9c43 Level=INFO Message=Log from Index action, from async continuation, from thread 11
+TimeStamp=2016-11-01 02:05:32.9116 CorrelationId=560cd01f-54f2-4dff-a55a-188c4ef471ae Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:32.9116 CorrelationId=e7e0a541-a40c-45d6-a0fc-c69e48da9c43 Level=INFO Message=Log from Index action, from explicitly created thread 18
+TimeStamp=2016-11-01 02:05:32.9297 CorrelationId=e7e0a541-a40c-45d6-a0fc-c69e48da9c43 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:33.2469 CorrelationId=9bc2aece-257d-46ca-9c89-3b1113b3692c Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:33.2519 CorrelationId=9bc2aece-257d-46ca-9c89-3b1113b3692c Level=INFO Message=Log from Index action, from thread=25
+TimeStamp=2016-11-01 02:05:33.2519 CorrelationId=9bc2aece-257d-46ca-9c89-3b1113b3692c Level=INFO Message=Log from Index, from thread 9 assigned by scheduler
+TimeStamp=2016-11-01 02:05:33.2519 CorrelationId=9bc2aece-257d-46ca-9c89-3b1113b3692c Level=INFO Message=Log from Index action, from async continuation, from thread 9
+TimeStamp=2016-11-01 02:05:33.2689 CorrelationId=9bc2aece-257d-46ca-9c89-3b1113b3692c Level=INFO Message=Log from Index action, from explicitly created thread 24
+TimeStamp=2016-11-01 02:05:33.2689 CorrelationId=9bc2aece-257d-46ca-9c89-3b1113b3692c Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:33.3860 CorrelationId=17d36807-353c-4777-8df6-cad014702031 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:33.3930 CorrelationId=17d36807-353c-4777-8df6-cad014702031 Level=INFO Message=Log from Index action, from thread=16
+TimeStamp=2016-11-01 02:05:33.3930 CorrelationId=17d36807-353c-4777-8df6-cad014702031 Level=INFO Message=Log from Index, from thread 21 assigned by scheduler
+TimeStamp=2016-11-01 02:05:33.3930 CorrelationId=17d36807-353c-4777-8df6-cad014702031 Level=INFO Message=Log from Index action, from async continuation, from thread 21
+TimeStamp=2016-11-01 02:05:33.4110 CorrelationId=17d36807-353c-4777-8df6-cad014702031 Level=INFO Message=Log from Index action, from explicitly created thread 23
+TimeStamp=2016-11-01 02:05:33.4210 CorrelationId=17d36807-353c-4777-8df6-cad014702031 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:33.4210 CorrelationId=419c62b4-d1ac-43b3-aa71-ce0f76386cd6 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:33.4400 CorrelationId=419c62b4-d1ac-43b3-aa71-ce0f76386cd6 Level=INFO Message=Log from Index action, from thread=11
+TimeStamp=2016-11-01 02:05:33.4400 CorrelationId=419c62b4-d1ac-43b3-aa71-ce0f76386cd6 Level=INFO Message=Log from Index, from thread 16 assigned by scheduler
+TimeStamp=2016-11-01 02:05:33.4400 CorrelationId=419c62b4-d1ac-43b3-aa71-ce0f76386cd6 Level=INFO Message=Log from Index action, from async continuation, from thread 16
+TimeStamp=2016-11-01 02:05:34.0458 CorrelationId=58365357-9115-4a8c-83ec-2cf9bacc8b29 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:34.0458 CorrelationId=dda855c3-e722-4f5d-b97f-c1eea3e02b5c Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:34.0458 CorrelationId=419c62b4-d1ac-43b3-aa71-ce0f76386cd6 Level=INFO Message=Log from Index action, from explicitly created thread 15
+TimeStamp=2016-11-01 02:05:34.0458 CorrelationId=118c6188-f74f-4d57-80c7-bb495164e8ec Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:34.0458 CorrelationId=58365357-9115-4a8c-83ec-2cf9bacc8b29 Level=INFO Message=Log from Index action, from thread=21
+TimeStamp=2016-11-01 02:05:34.0648 CorrelationId=dda855c3-e722-4f5d-b97f-c1eea3e02b5c Level=INFO Message=Log from Index action, from thread=25
+TimeStamp=2016-11-01 02:05:34.0768 CorrelationId=7793d01d-774f-471a-a375-9cf4e0fc1b90 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:34.0768 CorrelationId=419c62b4-d1ac-43b3-aa71-ce0f76386cd6 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:34.0768 CorrelationId=118c6188-f74f-4d57-80c7-bb495164e8ec Level=INFO Message=Log from Index action, from thread=11
+TimeStamp=2016-11-01 02:05:34.0768 CorrelationId=58365357-9115-4a8c-83ec-2cf9bacc8b29 Level=INFO Message=Log from Index, from thread 30 assigned by scheduler
+TimeStamp=2016-11-01 02:05:34.0968 CorrelationId=dda855c3-e722-4f5d-b97f-c1eea3e02b5c Level=INFO Message=Log from Index, from thread 8 assigned by scheduler
+TimeStamp=2016-11-01 02:05:34.0968 CorrelationId=7793d01d-774f-471a-a375-9cf4e0fc1b90 Level=INFO Message=Log from Index action, from thread=9
+TimeStamp=2016-11-01 02:05:34.1158 CorrelationId=118c6188-f74f-4d57-80c7-bb495164e8ec Level=INFO Message=Log from Index, from thread 16 assigned by scheduler
+TimeStamp=2016-11-01 02:05:34.1158 CorrelationId=58365357-9115-4a8c-83ec-2cf9bacc8b29 Level=INFO Message=Log from Index action, from async continuation, from thread 30
+TimeStamp=2016-11-01 02:05:34.1258 CorrelationId=dda855c3-e722-4f5d-b97f-c1eea3e02b5c Level=INFO Message=Log from Index action, from async continuation, from thread 8
+TimeStamp=2016-11-01 02:05:34.1258 CorrelationId=7793d01d-774f-471a-a375-9cf4e0fc1b90 Level=INFO Message=Log from Index, from thread 25 assigned by scheduler
+TimeStamp=2016-11-01 02:05:34.1258 CorrelationId=118c6188-f74f-4d57-80c7-bb495164e8ec Level=INFO Message=Log from Index action, from async continuation, from thread 16
+TimeStamp=2016-11-01 02:05:34.1428 CorrelationId=58365357-9115-4a8c-83ec-2cf9bacc8b29 Level=INFO Message=Log from Index action, from explicitly created thread 5
+TimeStamp=2016-11-01 02:05:34.1428 CorrelationId=dda855c3-e722-4f5d-b97f-c1eea3e02b5c Level=INFO Message=Log from Index action, from explicitly created thread 12
+TimeStamp=2016-11-01 02:05:34.1428 CorrelationId=7793d01d-774f-471a-a375-9cf4e0fc1b90 Level=INFO Message=Log from Index action, from async continuation, from thread 25
+TimeStamp=2016-11-01 02:05:34.1608 CorrelationId=118c6188-f74f-4d57-80c7-bb495164e8ec Level=INFO Message=Log from Index action, from explicitly created thread 13
+TimeStamp=2016-11-01 02:05:34.1718 CorrelationId=7793d01d-774f-471a-a375-9cf4e0fc1b90 Level=INFO Message=Log from Index action, from explicitly created thread 17
+TimeStamp=2016-11-01 02:05:34.1608 CorrelationId=58365357-9115-4a8c-83ec-2cf9bacc8b29 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:34.1718 CorrelationId=dda855c3-e722-4f5d-b97f-c1eea3e02b5c Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:34.1718 CorrelationId=118c6188-f74f-4d57-80c7-bb495164e8ec Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:34.1889 CorrelationId=7793d01d-774f-471a-a375-9cf4e0fc1b90 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:34.5971 CorrelationId=3504e54e-9cb1-4e89-a91c-8942c78f6748 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:34.5971 CorrelationId=3504e54e-9cb1-4e89-a91c-8942c78f6748 Level=INFO Message=Log from Index action, from thread=21
+TimeStamp=2016-11-01 02:05:34.6081 CorrelationId=3504e54e-9cb1-4e89-a91c-8942c78f6748 Level=INFO Message=Log from Index, from thread 25 assigned by scheduler
+TimeStamp=2016-11-01 02:05:34.6081 CorrelationId=3504e54e-9cb1-4e89-a91c-8942c78f6748 Level=INFO Message=Log from Index action, from async continuation, from thread 25
+TimeStamp=2016-11-01 02:05:34.6081 CorrelationId=b27a34eb-0eb7-430d-8930-3e550def366b Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 02:05:34.7512 CorrelationId=3504e54e-9cb1-4e89-a91c-8942c78f6748 Level=INFO Message=Log from Index action, from explicitly created thread 28
+TimeStamp=2016-11-01 02:05:34.7512 CorrelationId=6e4e8470-2008-4864-b5f4-674a6e3625cc Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:34.7512 CorrelationId=b27a34eb-0eb7-430d-8930-3e550def366b Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:34.7733 CorrelationId=6e4e8470-2008-4864-b5f4-674a6e3625cc Level=INFO Message=Log from Index action, from thread=11
+TimeStamp=2016-11-01 02:05:34.7733 CorrelationId=3504e54e-9cb1-4e89-a91c-8942c78f6748 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:34.7913 CorrelationId=6e4e8470-2008-4864-b5f4-674a6e3625cc Level=INFO Message=Log from Index, from thread 19 assigned by scheduler
+TimeStamp=2016-11-01 02:05:34.8033 CorrelationId=6e4e8470-2008-4864-b5f4-674a6e3625cc Level=INFO Message=Log from Index action, from async continuation, from thread 19
+TimeStamp=2016-11-01 02:05:34.8133 CorrelationId=6e4e8470-2008-4864-b5f4-674a6e3625cc Level=INFO Message=Log from Index action, from explicitly created thread 6
+TimeStamp=2016-11-01 02:05:34.8133 CorrelationId=38d13cc3-4059-467c-b710-4eab80762bd6 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:34.8263 CorrelationId=6e4e8470-2008-4864-b5f4-674a6e3625cc Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:34.8263 CorrelationId=38d13cc3-4059-467c-b710-4eab80762bd6 Level=INFO Message=Log from Index action, from thread=16
+TimeStamp=2016-11-01 02:05:34.8443 CorrelationId=38d13cc3-4059-467c-b710-4eab80762bd6 Level=INFO Message=Log from Index, from thread 11 assigned by scheduler
+TimeStamp=2016-11-01 02:05:34.8443 CorrelationId=38d13cc3-4059-467c-b710-4eab80762bd6 Level=INFO Message=Log from Index action, from async continuation, from thread 11
+TimeStamp=2016-11-01 02:05:34.8603 CorrelationId=38d13cc3-4059-467c-b710-4eab80762bd6 Level=INFO Message=Log from Index action, from explicitly created thread 14
+TimeStamp=2016-11-01 02:05:34.8603 CorrelationId=38d13cc3-4059-467c-b710-4eab80762bd6 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:35.6368 CorrelationId=d9a2287d-f78a-4f9f-857a-b5e044c3e30f Level=INFO Message=About to start GET /__browserLink/requestData/61b41ec0895d4ded98b86d6b8fda6edc?version=2 request
+TimeStamp=2016-11-01 02:05:35.6448 CorrelationId=d9a2287d-f78a-4f9f-857a-b5e044c3e30f Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:44.7998 CorrelationId=6f8a20d5-ea82-4e8e-a5a0-b6474f306db3 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:44.7998 CorrelationId=6f8a20d5-ea82-4e8e-a5a0-b6474f306db3 Level=INFO Message=Log from Index action, from thread=16
+TimeStamp=2016-11-01 02:05:44.8108 CorrelationId=6f8a20d5-ea82-4e8e-a5a0-b6474f306db3 Level=INFO Message=Log from Index, from thread 21 assigned by scheduler
+TimeStamp=2016-11-01 02:05:44.8108 CorrelationId=6f8a20d5-ea82-4e8e-a5a0-b6474f306db3 Level=INFO Message=Log from Index action, from async continuation, from thread 21
+TimeStamp=2016-11-01 02:05:44.8108 CorrelationId=6f8a20d5-ea82-4e8e-a5a0-b6474f306db3 Level=INFO Message=Log from Index action, from explicitly created thread 22
+TimeStamp=2016-11-01 02:05:44.8288 CorrelationId=6f8a20d5-ea82-4e8e-a5a0-b6474f306db3 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:45.3642 CorrelationId=25f2992e-8e7a-4f5c-870d-97120c14d37e Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 02:05:45.3642 CorrelationId=25f2992e-8e7a-4f5c-870d-97120c14d37e Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:45.5293 CorrelationId=8f773264-4341-4036-a009-544663bf5a51 Level=INFO Message=About to start GET /__browserLink/requestData/dcf5d4666eb24a5ea9fca9e0e4fb5e1a?version=2 request
+TimeStamp=2016-11-01 02:05:45.5673 CorrelationId=8f773264-4341-4036-a009-544663bf5a51 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:45.9536 CorrelationId=0b36d473-4b71-4782-a3ea-7a1b15d3a471 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 02:05:45.9536 CorrelationId=0b36d473-4b71-4782-a3ea-7a1b15d3a471 Level=INFO Message=Log from Index action, from thread=16
+TimeStamp=2016-11-01 02:05:45.9536 CorrelationId=0b36d473-4b71-4782-a3ea-7a1b15d3a471 Level=INFO Message=Log from Index, from thread 21 assigned by scheduler
+TimeStamp=2016-11-01 02:05:45.9726 CorrelationId=0b36d473-4b71-4782-a3ea-7a1b15d3a471 Level=INFO Message=Log from Index action, from async continuation, from thread 21
+TimeStamp=2016-11-01 02:05:45.9726 CorrelationId=0b36d473-4b71-4782-a3ea-7a1b15d3a471 Level=INFO Message=Log from Index action, from explicitly created thread 10
+TimeStamp=2016-11-01 02:05:45.9896 CorrelationId=0b36d473-4b71-4782-a3ea-7a1b15d3a471 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:46.5129 CorrelationId=7aa2c35d-7a21-493c-8007-c6cd4af54fdb Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 02:05:46.5199 CorrelationId=7aa2c35d-7a21-493c-8007-c6cd4af54fdb Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:05:46.6810 CorrelationId=a4cf8bea-3de2-4725-b332-889fde337d0d Level=INFO Message=About to start GET /__browserLink/requestData/f5852c6793664fb3818c838135b6b70d?version=2 request
+TimeStamp=2016-11-01 02:05:46.6890 CorrelationId=a4cf8bea-3de2-4725-b332-889fde337d0d Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:07:58.6587 CorrelationId=188365e2-d1b4-4a58-9cc5-252a4a6b8c27 Level=INFO Message=About to start GET /Home/Contact request
+TimeStamp=2016-11-01 02:07:58.6587 CorrelationId=188365e2-d1b4-4a58-9cc5-252a4a6b8c27 Level=INFO Message=Log from Contact action, from thread=25
+TimeStamp=2016-11-01 02:07:58.6587 CorrelationId=188365e2-d1b4-4a58-9cc5-252a4a6b8c27 Level=INFO Message=Log from Contact, from thread 9 assigned by scheduler
+TimeStamp=2016-11-01 02:07:58.6748 CorrelationId=188365e2-d1b4-4a58-9cc5-252a4a6b8c27 Level=INFO Message=Log from Contact action, from async continuation, from thread 9
+TimeStamp=2016-11-01 02:07:58.6748 CorrelationId=188365e2-d1b4-4a58-9cc5-252a4a6b8c27 Level=INFO Message=Log from Contact action, from explicitly created thread 10
+TimeStamp=2016-11-01 02:07:58.6928 CorrelationId=188365e2-d1b4-4a58-9cc5-252a4a6b8c27 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:07:59.8816 CorrelationId=2f9dd9c7-68f7-4cef-a1cd-ff49924f5f61 Level=INFO Message=About to start GET /__browserLink/requestData/f285eb468bba4edba93b14cf09cbc08e?version=2 request
+TimeStamp=2016-11-01 02:07:59.8896 CorrelationId=2f9dd9c7-68f7-4cef-a1cd-ff49924f5f61 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:08:01.4275 CorrelationId=45f3716f-0ce1-46e7-8965-282003f9b0aa Level=INFO Message=About to start GET /Home/About request
+TimeStamp=2016-11-01 02:08:01.4275 CorrelationId=45f3716f-0ce1-46e7-8965-282003f9b0aa Level=INFO Message=Log from About action, from thread=9
+TimeStamp=2016-11-01 02:08:01.4386 CorrelationId=45f3716f-0ce1-46e7-8965-282003f9b0aa Level=INFO Message=Log from About, from thread 31 assigned by scheduler
+TimeStamp=2016-11-01 02:08:01.4386 CorrelationId=45f3716f-0ce1-46e7-8965-282003f9b0aa Level=INFO Message=Log from About action, from async continuation, from thread 31
+TimeStamp=2016-11-01 02:08:01.4386 CorrelationId=45f3716f-0ce1-46e7-8965-282003f9b0aa Level=INFO Message=Log from About action, from explicitly created thread 22
+TimeStamp=2016-11-01 02:08:01.5917 CorrelationId=45f3716f-0ce1-46e7-8965-282003f9b0aa Level=ERROR Message=System.InvalidOperationException: Operation is not valid due to the current state of the object.
+   at AspNetMvcLoggingWithCorrelationId.Controllers.HomeController.<About>d__2.MoveNext() in E:\Tomek\Programowanie\BlogSrc\AspNetMvcLoggingWithCorrelationId\AspNetMvcLoggingWithCorrelationId\Controllers\HomeController.cs:line 24
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+TimeStamp=2016-11-01 02:08:01.6470 CorrelationId=45f3716f-0ce1-46e7-8965-282003f9b0aa Level=INFO Message=Request completed with status code: 500 
+TimeStamp=2016-11-01 02:08:02.8636 CorrelationId=69dd69bb-3457-4440-8f77-88b1fd39255a Level=INFO Message=About to start GET /Home/About request
+TimeStamp=2016-11-01 02:08:02.8636 CorrelationId=69dd69bb-3457-4440-8f77-88b1fd39255a Level=INFO Message=Log from About action, from thread=29
+TimeStamp=2016-11-01 02:08:02.8766 CorrelationId=69dd69bb-3457-4440-8f77-88b1fd39255a Level=INFO Message=Log from About, from thread 25 assigned by scheduler
+TimeStamp=2016-11-01 02:08:02.8766 CorrelationId=69dd69bb-3457-4440-8f77-88b1fd39255a Level=INFO Message=Log from About action, from async continuation, from thread 25
+TimeStamp=2016-11-01 02:08:02.8906 CorrelationId=69dd69bb-3457-4440-8f77-88b1fd39255a Level=INFO Message=Log from About action, from explicitly created thread 14
+TimeStamp=2016-11-01 02:08:02.9086 CorrelationId=69dd69bb-3457-4440-8f77-88b1fd39255a Level=ERROR Message=System.InvalidOperationException: Operation is not valid due to the current state of the object.
+   at AspNetMvcLoggingWithCorrelationId.Controllers.HomeController.<About>d__2.MoveNext() in E:\Tomek\Programowanie\BlogSrc\AspNetMvcLoggingWithCorrelationId\AspNetMvcLoggingWithCorrelationId\Controllers\HomeController.cs:line 24
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+TimeStamp=2016-11-01 02:08:02.9086 CorrelationId=69dd69bb-3457-4440-8f77-88b1fd39255a Level=INFO Message=Request completed with status code: 500 
+TimeStamp=2016-11-01 02:08:03.4240 CorrelationId=fc307bd0-3d52-4c85-ad0b-bf889a15c23d Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 02:08:03.4240 CorrelationId=fc307bd0-3d52-4c85-ad0b-bf889a15c23d Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:11:59.5491 CorrelationId=aa1d23be-3379-4dd5-a26c-9fda5779aca9 Level=INFO Message=About to start GET /Home/About request
+TimeStamp=2016-11-01 02:11:59.5491 CorrelationId=aa1d23be-3379-4dd5-a26c-9fda5779aca9 Level=INFO Message=Log from About action, from thread=19
+TimeStamp=2016-11-01 02:11:59.5651 CorrelationId=aa1d23be-3379-4dd5-a26c-9fda5779aca9 Level=INFO Message=Log from About, from thread 36 assigned by scheduler
+TimeStamp=2016-11-01 02:11:59.5651 CorrelationId=aa1d23be-3379-4dd5-a26c-9fda5779aca9 Level=INFO Message=Log from About action, from async continuation, from thread 36
+TimeStamp=2016-11-01 02:11:59.5821 CorrelationId=aa1d23be-3379-4dd5-a26c-9fda5779aca9 Level=INFO Message=Log from About action, from explicitly created thread 28
+TimeStamp=2016-11-01 02:11:59.5986 CorrelationId=aa1d23be-3379-4dd5-a26c-9fda5779aca9 Level=ERROR Message=System.InvalidOperationException: Operation is not valid due to the current state of the object.
+   at AspNetMvcLoggingWithCorrelationId.Controllers.HomeController.<About>d__2.MoveNext() in E:\Tomek\Programowanie\BlogSrc\AspNetMvcLoggingWithCorrelationId\AspNetMvcLoggingWithCorrelationId\Controllers\HomeController.cs:line 24
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+TimeStamp=2016-11-01 02:11:59.6141 CorrelationId=aa1d23be-3379-4dd5-a26c-9fda5779aca9 Level=INFO Message=Request completed with status code: 500 
+TimeStamp=2016-11-01 02:12:00.8855 CorrelationId=b9169068-aa4c-4742-98ad-8055cd056dc9 Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 02:12:00.9105 CorrelationId=b9169068-aa4c-4742-98ad-8055cd056dc9 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:14:56.5682 CorrelationId=19371657-874d-4f2e-87b2-522f3a471b7a Level=INFO Message=About to start GET /__browserLink/requestData/f285eb468bba4edba93b14cf09cbc08e?version=2 request
+TimeStamp=2016-11-01 02:14:56.5772 CorrelationId=19371657-874d-4f2e-87b2-522f3a471b7a Level=INFO Message=Request completed with status code: 404 
+TimeStamp=2016-11-01 02:17:26.3861 CorrelationId=807d0b13-6402-4acf-9b04-0e5f79c7c98d Level=INFO Message=About to start GET /Home/Contact request
+TimeStamp=2016-11-01 02:17:26.3976 CorrelationId=807d0b13-6402-4acf-9b04-0e5f79c7c98d Level=INFO Message=Log from Contact action, from thread=37
+TimeStamp=2016-11-01 02:17:26.4061 CorrelationId=807d0b13-6402-4acf-9b04-0e5f79c7c98d Level=INFO Message=Log from Contact, from thread 40 assigned by scheduler
+TimeStamp=2016-11-01 02:17:26.4061 CorrelationId=807d0b13-6402-4acf-9b04-0e5f79c7c98d Level=INFO Message=Log from Contact action, from async continuation, from thread 40
+TimeStamp=2016-11-01 02:17:26.4236 CorrelationId=807d0b13-6402-4acf-9b04-0e5f79c7c98d Level=INFO Message=Log from Contact action, from explicitly created thread 10
+TimeStamp=2016-11-01 02:17:26.4356 CorrelationId=807d0b13-6402-4acf-9b04-0e5f79c7c98d Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:17:27.5308 CorrelationId=e8a5e16e-acd6-441e-afb7-be451904c918 Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 02:17:27.5308 CorrelationId=e8a5e16e-acd6-441e-afb7-be451904c918 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 02:17:27.7044 CorrelationId=a0bbfad5-fc29-41a2-a695-4eec1ea364d9 Level=INFO Message=About to start GET /__browserLink/requestData/542844a90ae04ef2afa8ec071670ffff?version=2 request
+TimeStamp=2016-11-01 02:17:27.7044 CorrelationId=a0bbfad5-fc29-41a2-a695-4eec1ea364d9 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 17:55:40.9847 CorrelationId=c18a82cf-ee05-46e4-a6eb-c3f18cc4eeff Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 17:55:40.9847 CorrelationId=9dac04f3-37c1-4484-b587-9f4dfa8581b2 Level=INFO Message=About to start GET / request
+TimeStamp=2016-11-01 17:55:41.8041 CorrelationId=c18a82cf-ee05-46e4-a6eb-c3f18cc4eeff Level=INFO Message=Log from Index action, from thread=8
+TimeStamp=2016-11-01 17:55:41.8041 CorrelationId=9dac04f3-37c1-4484-b587-9f4dfa8581b2 Level=INFO Message=Log from Index action, from thread=7
+TimeStamp=2016-11-01 17:55:41.8131 CorrelationId=9dac04f3-37c1-4484-b587-9f4dfa8581b2 Level=INFO Message=Log from Index, from thread 11 assigned by scheduler
+TimeStamp=2016-11-01 17:55:41.8131 CorrelationId=9dac04f3-37c1-4484-b587-9f4dfa8581b2 Level=INFO Message=Log from Index action, from async continuation, from thread 11
+TimeStamp=2016-11-01 17:55:41.8041 CorrelationId=c18a82cf-ee05-46e4-a6eb-c3f18cc4eeff Level=INFO Message=Log from Index, from thread 9 assigned by scheduler
+TimeStamp=2016-11-01 17:55:41.8131 CorrelationId=9dac04f3-37c1-4484-b587-9f4dfa8581b2 Level=INFO Message=Log from Index action, from explicitly created thread 17
+TimeStamp=2016-11-01 17:55:41.8262 CorrelationId=c18a82cf-ee05-46e4-a6eb-c3f18cc4eeff Level=INFO Message=Log from Index action, from async continuation, from thread 9
+TimeStamp=2016-11-01 17:55:42.2382 CorrelationId=c18a82cf-ee05-46e4-a6eb-c3f18cc4eeff Level=INFO Message=Log from Index action, from explicitly created thread 18
+TimeStamp=2016-11-01 17:55:45.4585 CorrelationId=9dac04f3-37c1-4484-b587-9f4dfa8581b2 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 17:55:45.4585 CorrelationId=c18a82cf-ee05-46e4-a6eb-c3f18cc4eeff Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 17:55:47.3048 CorrelationId=3a37d7a1-93f6-4973-b16d-8084c9870578 Level=INFO Message=About to start GET /__browserLink/requestData/8c2fd5113f544c9898ef36fe15b6aa65?version=2 request
+TimeStamp=2016-11-01 17:55:47.3527 CorrelationId=3a37d7a1-93f6-4973-b16d-8084c9870578 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 17:56:15.4945 CorrelationId=e52fe077-d1ee-4cc3-8ad3-42168b456423 Level=INFO Message=About to start GET /Home/Contact request
+TimeStamp=2016-11-01 17:56:15.5015 CorrelationId=e52fe077-d1ee-4cc3-8ad3-42168b456423 Level=INFO Message=Log from Contact action, from thread=11
+TimeStamp=2016-11-01 17:56:15.5015 CorrelationId=e52fe077-d1ee-4cc3-8ad3-42168b456423 Level=INFO Message=Log from Contact, from thread 12 assigned by scheduler
+TimeStamp=2016-11-01 17:56:15.5015 CorrelationId=e52fe077-d1ee-4cc3-8ad3-42168b456423 Level=INFO Message=Log from Contact action, from async continuation, from thread 12
+TimeStamp=2016-11-01 17:56:15.5166 CorrelationId=e52fe077-d1ee-4cc3-8ad3-42168b456423 Level=INFO Message=Log from Contact action, from explicitly created thread 17
+TimeStamp=2016-11-01 17:56:15.5356 CorrelationId=e52fe077-d1ee-4cc3-8ad3-42168b456423 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 17:56:16.7184 CorrelationId=317090cc-e1ef-469a-9641-97c8a2d6e42a Level=INFO Message=About to start GET /__browserLink/requestData/bf146dc2474a40fbb48bc21ba72aca19?version=2 request
+TimeStamp=2016-11-01 17:56:16.7184 CorrelationId=317090cc-e1ef-469a-9641-97c8a2d6e42a Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 17:56:18.7853 CorrelationId=217609ed-24c6-43f6-a5d4-325a915c2e08 Level=INFO Message=About to start GET /Home/About request
+TimeStamp=2016-11-01 17:56:18.7853 CorrelationId=217609ed-24c6-43f6-a5d4-325a915c2e08 Level=INFO Message=Log from About action, from thread=5
+TimeStamp=2016-11-01 17:56:18.7973 CorrelationId=217609ed-24c6-43f6-a5d4-325a915c2e08 Level=INFO Message=Log from About, from thread 8 assigned by scheduler
+TimeStamp=2016-11-01 17:56:18.7973 CorrelationId=217609ed-24c6-43f6-a5d4-325a915c2e08 Level=INFO Message=Log from About action, from async continuation, from thread 8
+TimeStamp=2016-11-01 17:56:18.7973 CorrelationId=217609ed-24c6-43f6-a5d4-325a915c2e08 Level=INFO Message=Log from About action, from explicitly created thread 18
+TimeStamp=2016-11-01 17:56:18.9610 CorrelationId=217609ed-24c6-43f6-a5d4-325a915c2e08 Level=ERROR Message=System.InvalidOperationException: Operation is not valid due to the current state of the object.
+   at AspNetMvcLoggingWithCorrelationId.Controllers.HomeController.<About>d__2.MoveNext() in E:\Tomek\Programowanie\BlogSrc\AspNetMvcLoggingWithCorrelationId\AspNetMvcLoggingWithCorrelationId\Controllers\HomeController.cs:line 24
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+TimeStamp=2016-11-01 17:56:19.0300 CorrelationId=217609ed-24c6-43f6-a5d4-325a915c2e08 Level=INFO Message=Request completed with status code: 500 
+TimeStamp=2016-11-01 17:56:21.0572 CorrelationId=be5102d7-e7c3-4542-8ac2-03b33e8594e3 Level=INFO Message=About to start GET /Home/About request
+TimeStamp=2016-11-01 17:56:21.0632 CorrelationId=be5102d7-e7c3-4542-8ac2-03b33e8594e3 Level=INFO Message=Log from About action, from thread=5
+TimeStamp=2016-11-01 17:56:21.0632 CorrelationId=be5102d7-e7c3-4542-8ac2-03b33e8594e3 Level=INFO Message=Log from About, from thread 13 assigned by scheduler
+TimeStamp=2016-11-01 17:56:21.0632 CorrelationId=be5102d7-e7c3-4542-8ac2-03b33e8594e3 Level=INFO Message=Log from About action, from async continuation, from thread 13
+TimeStamp=2016-11-01 17:56:21.0822 CorrelationId=be5102d7-e7c3-4542-8ac2-03b33e8594e3 Level=INFO Message=Log from About action, from explicitly created thread 19
+TimeStamp=2016-11-01 17:56:21.0972 CorrelationId=be5102d7-e7c3-4542-8ac2-03b33e8594e3 Level=ERROR Message=System.InvalidOperationException: Operation is not valid due to the current state of the object.
+   at AspNetMvcLoggingWithCorrelationId.Controllers.HomeController.<About>d__2.MoveNext() in E:\Tomek\Programowanie\BlogSrc\AspNetMvcLoggingWithCorrelationId\AspNetMvcLoggingWithCorrelationId\Controllers\HomeController.cs:line 24
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+TimeStamp=2016-11-01 17:56:21.0972 CorrelationId=be5102d7-e7c3-4542-8ac2-03b33e8594e3 Level=INFO Message=Request completed with status code: 500 
+TimeStamp=2016-11-01 17:56:21.5215 CorrelationId=a9c69209-cf78-4c82-aebf-ba01ec24e69c Level=INFO Message=About to start GET /Home/About request
+TimeStamp=2016-11-01 17:56:21.5215 CorrelationId=f7b50862-f3aa-4120-ad2a-9e3ef3cdf895 Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 17:56:21.5215 CorrelationId=a9c69209-cf78-4c82-aebf-ba01ec24e69c Level=INFO Message=Log from About action, from thread=10
+TimeStamp=2016-11-01 17:56:21.5395 CorrelationId=a9c69209-cf78-4c82-aebf-ba01ec24e69c Level=INFO Message=Log from About, from thread 12 assigned by scheduler
+TimeStamp=2016-11-01 17:56:21.5455 CorrelationId=a9c69209-cf78-4c82-aebf-ba01ec24e69c Level=INFO Message=Log from About action, from async continuation, from thread 12
+TimeStamp=2016-11-01 17:56:21.5455 CorrelationId=a9c69209-cf78-4c82-aebf-ba01ec24e69c Level=INFO Message=Log from About action, from explicitly created thread 20
+TimeStamp=2016-11-01 17:56:21.5455 CorrelationId=f7b50862-f3aa-4120-ad2a-9e3ef3cdf895 Level=INFO Message=Request completed with status code: 200 
+TimeStamp=2016-11-01 17:56:21.5665 CorrelationId=a9c69209-cf78-4c82-aebf-ba01ec24e69c Level=ERROR Message=System.InvalidOperationException: Operation is not valid due to the current state of the object.
+   at AspNetMvcLoggingWithCorrelationId.Controllers.HomeController.<About>d__2.MoveNext() in E:\Tomek\Programowanie\BlogSrc\AspNetMvcLoggingWithCorrelationId\AspNetMvcLoggingWithCorrelationId\Controllers\HomeController.cs:line 24
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+TimeStamp=2016-11-01 17:56:21.5785 CorrelationId=a9c69209-cf78-4c82-aebf-ba01ec24e69c Level=INFO Message=Request completed with status code: 500 
+TimeStamp=2016-11-01 17:56:22.0809 CorrelationId=b2fc5a8f-8b13-4740-b80f-71b184314710 Level=INFO Message=About to start GET /favicon.ico request
+TimeStamp=2016-11-01 17:56:22.0809 CorrelationId=b2fc5a8f-8b13-4740-b80f-71b184314710 Level=INFO Message=Request completed with status code: 200 
