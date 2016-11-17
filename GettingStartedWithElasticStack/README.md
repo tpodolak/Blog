@@ -1,1 +1,1 @@
-Code samples for http://tpodolak.com/blog/2016/10/31/getting-started-elastic-stack/
+Code samples for http://tpodolak.com/blog/2016/11/02/getting-started-elastic-stack/
