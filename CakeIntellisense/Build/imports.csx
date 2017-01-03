@@ -1,4 +1,4 @@
-//#load "./metadataImports.csx"
+// #load "./metadataImports.csx"
 
 using Cake.Core;
 using Cake.Core.IO;
@@ -14,7 +14,6 @@ using Cake.Common.Tools.ReportGenerator;
 using Cake.Common.Tools.OpenCover;
 using Cake.Common.Tools.NSIS;
 using Cake.Common.Tools.InspectCode;
-using Cake.Common.Tools.InnoSetup;
 using Cake.Common.Tools.ILRepack;
 using Cake.Common.Tools.GitVersion;
 using Cake.Common.Tools.GitReleaseNotes;
