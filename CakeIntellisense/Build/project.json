@@ -1,0 +1,10 @@
+{
+    "frameworks": {
+        "net452":{
+            "dependencies": {
+                "Cake.Core": "0.17.0",
+                "Cake.Common": "0.17.0"
+            }
+        }
+    }
+}

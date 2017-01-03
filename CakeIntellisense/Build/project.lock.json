@@ -1,0 +1,66 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.5.2": {
+      "Cake.Common/0.17.0": {
+        "type": "package",
+        "dependencies": {
+          "Cake.Core": "0.17.0"
+        },
+        "compile": {
+          "lib/net45/Cake.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Cake.Common.dll": {}
+        }
+      },
+      "Cake.Core/0.17.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Cake.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Cake.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cake.Common/0.17.0": {
+      "sha512": "+0dVGK9Kny2ye0A0btgw9M68X9xqupIFIa5kHODLnEuN/TZFBmZzKn4+YTC5cnQhGwM6l+uSB20kOaZd9++q0A==",
+      "type": "package",
+      "path": "Cake.Common/0.17.0",
+      "files": [
+        "Cake.Common.0.17.0.nupkg.sha512",
+        "Cake.Common.nuspec",
+        "lib/net45/Cake.Common.dll",
+        "lib/net45/Cake.Common.xml",
+        "lib/netstandard1.6/Cake.Common.dll",
+        "lib/netstandard1.6/Cake.Common.xml"
+      ]
+    },
+    "Cake.Core/0.17.0": {
+      "sha512": "5Fs7n5s0SdmBf0FqtiNj3agstTddyPmigEEEHnMeR8RkKC6eHZqpCDMbpOG49yyoSjwafvDpT/YLpiUIUyxGaw==",
+      "type": "package",
+      "path": "Cake.Core/0.17.0",
+      "files": [
+        "Cake.Core.0.17.0.nupkg.sha512",
+        "Cake.Core.nuspec",
+        "lib/net45/Cake.Core.dll",
+        "lib/net45/Cake.Core.xml",
+        "lib/netstandard1.6/Cake.Core.dll",
+        "lib/netstandard1.6/Cake.Core.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.5.2": [
+      "Cake.Common >= 0.17.0",
+      "Cake.Core >= 0.17.0"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {}
+}
