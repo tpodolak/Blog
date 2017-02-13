@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -11,10 +12,12 @@ namespace AspNetCoreLoggingWithCorrelationId.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+        private readonly IHttpContextAccessor httpContextAccessor;
         private readonly ILogger<ValuesController> logger;
 
-        public ValuesController(ILogger<ValuesController> logger)
+        public ValuesController(IHttpContextAccessor httpContextAccessor, ILogger<ValuesController> logger)
         {
+            this.httpContextAccessor = httpContextAccessor;
             this.logger = logger;
         }
         // GET api/values
@@ -37,8 +40,12 @@ namespace AspNetCoreLoggingWithCorrelationId.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        public async Task Post([FromBody]string value)
         {
+            httpContextAccessor.HttpContext.Items["Item"] = value;
+            logger.LogInformation("Stored");
+            await PreprocessRequest(nameof(Post));
+            logger.LogInformation("Http item still will be in here");
         }
 
         // PUT api/values/5
