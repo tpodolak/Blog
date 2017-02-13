@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C59518A2-9F6E-4132-9C3F-8912D88D1EC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A167282-46C9-4F06-B224-9083FAEBDF58}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCoreLoggingWithCorrelationId", "src\AspNetCoreLoggingWithCorrelationId\AspNetCoreLoggingWithCorrelationId.xproj", "{AC62B2EC-F151-4F96-A485-9A7D21D896D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC62B2EC-F151-4F96-A485-9A7D21D896D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC62B2EC-F151-4F96-A485-9A7D21D896D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC62B2EC-F151-4F96-A485-9A7D21D896D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC62B2EC-F151-4F96-A485-9A7D21D896D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC62B2EC-F151-4F96-A485-9A7D21D896D1} = {C59518A2-9F6E-4132-9C3F-8912D88D1EC4}
+	EndGlobalSection
+EndGlobal
