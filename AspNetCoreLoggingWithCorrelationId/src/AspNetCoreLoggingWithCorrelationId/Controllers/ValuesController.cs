@@ -40,12 +40,8 @@ namespace AspNetCoreLoggingWithCorrelationId.Controllers
 
         // POST api/values
         [HttpPost]
-        public async Task Post([FromBody]string value)
+        public void Post([FromBody]string value)
         {
-            httpContextAccessor.HttpContext.Items["Item"] = value;
-            logger.LogInformation("Stored");
-            await PreprocessRequest(nameof(Post));
-            logger.LogInformation("Http item still will be in here");
         }
 
         // PUT api/values/5
