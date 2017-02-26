@@ -1,10 +1,12 @@
-﻿namespace AspNetCoreInitializingOptions.Services
+﻿using System;
+
+namespace AspNetCoreInitializingOptions.Services
 {
     public class ReservationSettingsService : IReservationSettingsService
     {
-        public int GetMinimumConnectionTime()
+        public TimeSpan GetMinimumConnectionTime()
         {
-            return 1;
+            return TimeSpan.FromMinutes(30);
         }
     }
 }

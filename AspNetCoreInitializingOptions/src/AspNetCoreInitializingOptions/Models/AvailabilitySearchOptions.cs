@@ -1,4 +1,6 @@
-﻿namespace AspNetCoreInitializingOptions.Models
+﻿using System;
+
+namespace AspNetCoreInitializingOptions.Models
 {
     public class AvailabilitySearchOptions
     {
@@ -6,6 +8,8 @@
 
         public int FlexDaysOut { get; set; }
 
-        public int MinimumConnectionTime { get; set; }
+        public TimeSpan MinimumConnectionTime { get; set; }
+
+        public TimeSpan MinimumDepartureTime { get; set; }
     }
 }

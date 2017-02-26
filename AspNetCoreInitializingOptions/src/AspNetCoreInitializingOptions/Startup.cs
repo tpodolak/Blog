@@ -30,6 +30,7 @@ namespace AspNetCoreInitializingOptions
             services.AddMvc();
             services.Configure<AvailabilitySearchOptions>(Configuration.GetSection("AvailabilitySearchOptions"));
             services.AddSingleton<IConfigureOptions<AvailabilitySearchOptions>, AvailabilitySearchOptionsSetupService>();
+            services.AddSingleton<IConfigureOptions<AvailabilitySearchOptions>, AvailabilitySearchOptionsSecondSetupService>();
             services.AddSingleton<IReservationSettingsService, ReservationSettingsService>();
 
         }
