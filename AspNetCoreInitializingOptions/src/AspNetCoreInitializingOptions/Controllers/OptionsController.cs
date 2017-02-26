@@ -14,7 +14,6 @@ namespace AspNetCoreInitializingOptions.Controllers
             this.availabilitySearchOptions = availabilitySearchOptions;
         }
 
-        [HttpGet]
         public AvailabilitySearchOptions Get()
         {
             return availabilitySearchOptions.Value;

@@ -1,1 +1,1 @@
-Sources for incoming blog post
+Source code for https://tpodolak.com/blog/2017/02/26/asp-net-core-populating-ioptions-external-data-source
