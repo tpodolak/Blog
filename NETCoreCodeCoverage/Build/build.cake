@@ -46,24 +46,36 @@ Task("Build")
 
 
 Task("Run-Tests")
-    .IsDependentOn("Build")
+    // .IsDependentOn("Build")
     .Does(() =>
 {
-    if(parameters.SkipOpenCover){
+    var success = true;
+    var openCoverSettings = new OpenCoverSettings{
+                                                    ReturnTargetCodeOffset = 0,
+                                                    OldStyle = true
+                                                 }
+                                                .WithFilter("+[NETCoreCodeCoverage*]* -[NETCoreCodeCoverage.Tests*]*")
+                                                .ExcludeByAttribute("*.ExcludeFromCodeCoverage*")
+                                                .ExcludeByFile("*/*Designer.cs;*/*.g.cs;*/*.g.i.cs");
+    if(parameters.UseDotNetVsTest){
 
-        var argumentBuilder = new ProcessArgumentBuilder();
-        argumentBuilder.Append("vstest")
-                    .Append(string.Join(" ", paths.Files.TestAssemblies.Select(val => MakeAbsolute(val).ToString())))
-                    .Append("--Parallel");
-
-        StartProcess("dotnet.exe", new ProcessSettings
+        Action<ICakeContext> testAction = context => 
         {
-            Arguments = argumentBuilder
-        });
+            var argumentBuilder = new ProcessArgumentBuilder();
+            argumentBuilder.Append("vstest")
+                           .Append(string.Join(" ", paths.Files.TestAssemblies.Select(val => MakeAbsolute(val).ToString())))
+                           .Append("--Parallel");
+
+             context.StartProcess("dotnet.exe", new ProcessSettings
+            {
+                Arguments = argumentBuilder
+            });
+        };
+
+        OpenCover(testAction, paths.Files.TestCoverageOutput, openCoverSettings);
     }
     else
     {
-        var success = true;
         foreach(var project in paths.Files.TestProjects)
         {
             try 
@@ -75,18 +87,7 @@ Task("Run-Tests")
                     NoBuild = true
                 };
 
-                OpenCover(tool => tool.DotNetCoreTest(projectFile, dotNetTestSettings),
-                                        paths.Files.TestCoverageOutput,
-                                        new OpenCoverSettings
-                                        {
-                                            ReturnTargetCodeOffset = 0,
-                                            OldStyle = true,
-                                            ArgumentCustomization = args => args.Append("-mergeoutput")
-
-                                        }
-                                        .WithFilter("+[NETCoreCodeCoverage*]* -[NETCoreCodeCoverage.Tests*]*")
-                                        .ExcludeByAttribute("*.ExcludeFromCodeCoverage*")
-                                        .ExcludeByFile("*/*Designer.cs;*/*.g.cs;*/*.g.i.cs"));
+                OpenCover(context => context.DotNetCoreTest(projectFile, dotNetTestSettings), paths.Files.TestCoverageOutput, openCoverSettings);
             }
             catch(Exception ex)
             {
@@ -94,13 +95,13 @@ Task("Run-Tests")
                 Error("There was an error while running the tests", ex);
             }
         }
+    }
 
-       if(success == false)
-       {
-           throw new CakeException("There was an error while running the tests");
-       }
+    ReportGenerator(paths.Files.TestCoverageOutput, paths.Directories.TestResults);
 
-        ReportGenerator(paths.Files.TestCoverageOutput, paths.Directories.TestResults);
+    if(success == false)
+    {
+        throw new CakeException("There was an error while running the tests");
     }
 
 });
