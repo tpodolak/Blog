@@ -46,17 +46,17 @@ Task("Build")
 
 
 Task("Run-Tests")
-    // .IsDependentOn("Build")
+    .IsDependentOn("Build")
     .Does(() =>
 {
     var success = true;
-    var openCoverSettings = new OpenCoverSettings{
-                                                    ReturnTargetCodeOffset = 0,
-                                                    OldStyle = true
-                                                 }
-                                                .WithFilter("+[NETCoreCodeCoverage*]* -[NETCoreCodeCoverage.Tests*]*")
-                                                .ExcludeByAttribute("*.ExcludeFromCodeCoverage*")
-                                                .ExcludeByFile("*/*Designer.cs;*/*.g.cs;*/*.g.i.cs");
+    var openCoverSettings = new OpenCoverSettings
+    {
+        OldStyle = true,
+        MergeOutput = true
+    }
+    .WithFilter("+[*]* -[*.Tests*]*");
+
     if(parameters.UseDotNetVsTest){
 
         Action<ICakeContext> testAction = context => 
