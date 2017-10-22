@@ -1,9 +1,9 @@
 #tool "nuget:?package=EtherealCode.ReSpeller&version=4.6.9.2"
-#tool "nuget:?package=JetBrains.ReSharper.CommandLineTools"
+#tool "nuget:?package=JetBrains.ReSharper.CommandLineTools&version=2017.2.2"
 #addin "Cake.Issues"
 #addin "Cake.Issues.InspectCode"
 var target = Argument("target", "Default");
-var destinationPath = "tools/jetbrains.resharper.commandlinetools/JetBrains.ReSharper.CommandLineTools/tools";
+var destinationPath = "tools/jetbrains.resharper.commandlinetools.2017.2.2/JetBrains.ReSharper.CommandLineTools/tools";
 
 Setup(context =>
 {
@@ -25,16 +25,22 @@ Task("Clean")
 });
 
 Task("Clean-Cache")
-.WithCriteria(()=>
-{
-    // var customDictionaryModificationDate = System.IO.File.GetLastWriteTime("../Spelling/en_US_custom.dic");
-    // var commandLineCacheModificationDate = System.IO.File.GetLastWriteTime("tools/_ResharperCommandLineInspections.1437843129.00");
-    // return customDictionaryModificationDate > commandLineCacheModificationDate && DirectoryExists("tools/_ResharperCommandLineInspections.1437843129.00");
-    return true;
-})
+// .WithCriteria(()=>
+// {
+//     // var customDictionaryModificationDate = System.IO.File.GetLastWriteTime("../Spelling/en_US_custom.dic");
+//     // var commandLineCacheModificationDate = System.IO.File.GetLastWriteTime("tools/_ResharperCommandLineInspections.1437843129.00");
+//     // return customDictionaryModificationDate > commandLineCacheModificationDate && DirectoryExists("tools/_ResharperCommandLineInspections.1437843129.00");
+//     return true;
+// })
 .Does(()=>
 {
-    CleanDirectory("tools/_ResharperCommandLineInspections.1437843129.00");
+    var toolsPath = MakeAbsolute((DirectoryPath)"tools").ToString();
+    var caches = System.IO.Directory.GetDirectories(toolsPath).Where(directory => directory.Contains("_ResharperCommandLineInspections"));
+    foreach(var cache in caches)
+    {
+        Information($"Deleting directory {cache}");
+        DeleteDirectory(cache, new DeleteDirectorySettings{ Force = true, Recursive = true });
+    }
 });
 
 Task("Prepare-Respeller")
@@ -42,7 +48,7 @@ Task("Prepare-Respeller")
 .Does(()=>
 {
     // works for pinned version of ReSpeller
-    var destinationPath = "tools/jetbrains.resharper.commandlinetools/JetBrains.ReSharper.CommandLineTools/tools";
+    var destinationPath = "tools/jetbrains.resharper.commandlinetools.2017.2.2/JetBrains.ReSharper.CommandLineTools/tools";
     CopyFiles("tools/etherealcode.respeller.4.6.9.2/EtherealCode.ReSpeller/lib/net45/*.dll", destinationPath);
     CopyFiles("tools/etherealcode.respeller.4.6.9.2/Extended.Wpf.Toolkit/lib/net40/*.dll", destinationPath);
     CopyFiles("tools/etherealcode.respeller.4.6.9.2/NHunspell/lib/net/*.dll", destinationPath);
