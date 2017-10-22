@@ -23,8 +23,8 @@ project.lock.json
 
 # Build related
 !Build/
-!Build/tools/
 Build/tools/*
+!Build/tools/nuget.config
 .artifacts/
 
 # mstest test results

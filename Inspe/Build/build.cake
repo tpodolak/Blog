@@ -1,8 +1,7 @@
-#tool "nuget:?package=JetBrains.ReSharper.CommandLineTools"
 #tool "nuget:?package=EtherealCode.ReSpeller&version=4.6.9.2"
+#tool "nuget:?package=JetBrains.ReSharper.CommandLineTools"
 #addin "Cake.Issues"
 #addin "Cake.Issues.InspectCode"
-//  <add key="resharper-plugins" value="https://resharper-plugins.jetbrains.com/api/v2/curated-feeds/Wave_v9.0/" protocolVersion="2" />
 var target = Argument("target", "Default");
 var destinationPath = "tools/jetbrains.resharper.commandlinetools/JetBrains.ReSharper.CommandLineTools/tools";
 
@@ -74,13 +73,12 @@ Task("Run-SpellCheck")
 
     if(spellingIssues.Any())
     {
-        Error("{0} spelling errors detected", spellingIssues.Count);
         foreach(var issue in spellingIssues)
         {
             Error("FileName: {0} Line: {1} Message:{2}", issue.AffectedFileRelativePath, issue.Line, issue.Message);
         }
 
-        throw new CakeException("Spelling errors detected. Please fix them or add missing words to the dictionary");
+        throw new CakeException($"{spellingIssues.Count} spelling errors detected. Please fix them or add missing words to the dictionary");
     }
 });
 
