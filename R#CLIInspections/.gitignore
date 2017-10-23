@@ -25,6 +25,7 @@ project.lock.json
 !Build/
 Build/tools/*
 !Build/tools/nuget.config
+!Build/tools/cake.config
 .artifacts/
 
 # mstest test results
