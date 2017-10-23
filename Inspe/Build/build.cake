@@ -25,13 +25,6 @@ Task("Clean")
 });
 
 Task("Clean-Cache")
-// .WithCriteria(()=>
-// {
-//     // var customDictionaryModificationDate = System.IO.File.GetLastWriteTime("../Spelling/en_US_custom.dic");
-//     // var commandLineCacheModificationDate = System.IO.File.GetLastWriteTime("tools/_ResharperCommandLineInspections.1437843129.00");
-//     // return customDictionaryModificationDate > commandLineCacheModificationDate && DirectoryExists("tools/_ResharperCommandLineInspections.1437843129.00");
-//     return true;
-// })
 .Does(()=>
 {
     var toolsPath = MakeAbsolute((DirectoryPath)"tools").ToString();
@@ -72,18 +65,33 @@ Task("Run-SpellCheck")
                                           .AppendSwitch("--caches-home","=","tools")
     };
 
-    InspectCode("../ResharperCommandLineInspections.sln" , settings);
+    var processArgumentBuilder = new ProcessArgumentBuilder().AppendSwitch("--profile","=","../Spelling/Resharper.ReSpeller.DotSettings")
+                                          .AppendSwitch("--caches-home","=","tools")
+                                          .AppendSwitch("-o","=","../.artifacts/inspectcode.xml")
+                                          .Append("../ResharperCommandLineInspections.sln");
+
+    var processSettings = new ProcessSettings 
+    {
+        Arguments = processArgumentBuilder,
+        Silent = true,
+        RedirectStandardOutput = true
+    };
+
+    IEnumerable<string> redirectedOutput, redirectedErrors;
+
+    var exitCode = StartProcess(Context.Tools.Resolve("inspectcode.exe"), processSettings, out redirectedOutput, out redirectedErrors);
+    if(exitCode !=0)
+    {
+        throw new CakeException($"InspectCode exited with unexpected error code: {exitCode}");
+    }
 
     var issues = ReadIssues(InspectCodeIssuesFromFilePath("../.artifacts/inspectcode.xml"), "../");
     var spellingIssues = issues.Where(issue => issue.Rule.Contains("Typo")).ToList();
 
     if(spellingIssues.Any())
     {
-        foreach(var issue in spellingIssues)
-        {
-            Error("FileName: {0} Line: {1} Message:{2}", issue.AffectedFileRelativePath, issue.Line, issue.Message);
-        }
-
+        var errorMessage = spellingIssues.Aggregate(new StringBuilder(), (stringBuilder, issue) => stringBuilder.AppendFormat("FileName: {0} Line: {1} Message: {2}{3}", issue.AffectedFileRelativePath, issue.Line, issue.Message, Environment.NewLine));
+        Error(errorMessage);
         throw new CakeException($"{spellingIssues.Count} spelling errors detected. Please fix them or add missing words to the dictionary");
     }
 });
