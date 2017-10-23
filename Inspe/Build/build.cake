@@ -91,8 +91,7 @@ Task("Run-SpellCheck")
     if(spellingIssues.Any())
     {
         var errorMessage = spellingIssues.Aggregate(new StringBuilder(), (stringBuilder, issue) => stringBuilder.AppendFormat("FileName: {0} Line: {1} Message: {2}{3}", issue.AffectedFileRelativePath, issue.Line, issue.Message, Environment.NewLine));
-        Error(errorMessage);
-        throw new CakeException($"{spellingIssues.Count} spelling errors detected. Please fix them or add missing words to the dictionary");
+        throw new CakeException($"{spellingIssues.Count} spelling errors detected: {Environment.NewLine}{errorMessage}please fix them or add missing words to the dictionary.");
     }
 });
 
