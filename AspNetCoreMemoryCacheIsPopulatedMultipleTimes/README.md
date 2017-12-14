@@ -1,1 +1,1 @@
-Source code for incoming blog post
+Code samples for https://tpodolak.com/blog/2017/12/13/asp-net-core-memorycache-getorcreate-calls-factory-method-multiple-times/
