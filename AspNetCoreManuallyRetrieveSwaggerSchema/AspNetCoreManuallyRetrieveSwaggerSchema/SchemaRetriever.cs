@@ -17,22 +17,25 @@ namespace AspNetCoreManuallyRetrieveSwaggerSchema
         
         public string RetrieveSchema(string swaggerDocument)
         {
-            var serviceProvider = WebHost.Services;
-            var swaggerProvider = serviceProvider.GetRequiredService<ISwaggerProvider>();
-            var mvcJsonOptions = serviceProvider.GetRequiredService<IOptions<MvcJsonOptions>>();
-            var document = swaggerProvider.GetSwagger(swaggerDocument, null, "/");
-
-            var serializer = new JsonSerializer
+            using (var scope = WebHost.Services.CreateScope())
             {
-                NullValueHandling = NullValueHandling.Ignore,
-                Formatting = mvcJsonOptions.Value.SerializerSettings.Formatting,
-                ContractResolver = new SwaggerContractResolver(mvcJsonOptions.Value.SerializerSettings)
-            };
+                var serviceProvider = scope.ServiceProvider;
+                var swaggerProvider = serviceProvider.GetRequiredService<ISwaggerProvider>();
+                var mvcJsonOptions = serviceProvider.GetRequiredService<IOptions<MvcJsonOptions>>();
+                var document = swaggerProvider.GetSwagger(swaggerDocument, null, "/");
 
-            using (var stringWriter = new StringWriter())
-            {
-                serializer.Serialize(stringWriter, document);
-                return stringWriter.ToString();
+                var serializer = new JsonSerializer
+                {
+                    NullValueHandling = NullValueHandling.Ignore,
+                    Formatting = mvcJsonOptions.Value.SerializerSettings.Formatting,
+                    ContractResolver = new SwaggerContractResolver(mvcJsonOptions.Value.SerializerSettings)
+                };
+
+                using (var stringWriter = new StringWriter())
+                {
+                    serializer.Serialize(stringWriter, document);
+                    return stringWriter.ToString();
+                }   
             }
         }
     }
