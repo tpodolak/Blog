@@ -22,10 +22,10 @@ namespace AspNetCorePassingCommandLineArgumentsToStartupClass
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment hostingEnvironment, IConfiguration configuration, ILoggerFactory loggerFactory, IApplicationLifetime applicationLifetime)
         {
-            loggerFactory.AddConsole(configuration.GetSection("Logging"));
+            loggerFactory.AddConsole();
             loggerFactory.AddDebug();
             applicationLifetime.ApplicationStarted.Register(() =>
-                loggerFactory.CreateLogger("StartupLogger").LogInformation("CommandLine argument {0}: ", configuration["usecustomschema"]));
+                loggerFactory.CreateLogger<Startup>().LogInformation("CommandLine argument {0}: ", configuration["usecustomschema"]));
 
             if (hostingEnvironment.IsDevelopment())
             {
