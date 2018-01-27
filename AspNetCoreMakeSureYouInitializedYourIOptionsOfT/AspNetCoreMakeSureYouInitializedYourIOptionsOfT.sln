@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreMakeSureYouInitializedYourIOptionsOfT", "AspNetCoreMakeSureYouInitializedYourIOptionsOfT\AspNetCoreMakeSureYouInitializedYourIOptionsOfT.csproj", "{D182DEC2-B1A4-4058-97C3-57B65D304AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreMakeSureYouInitializedYourIOptionsOfT.Tests", "AspNetCoreMakeSureYouInitializedYourIOptionsOfT.Tests\AspNetCoreMakeSureYouInitializedYourIOptionsOfT.Tests.csproj", "{AC4A8EEB-6AD6-494E-9A92-3CCCFCAC2C0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D182DEC2-B1A4-4058-97C3-57B65D304AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D182DEC2-B1A4-4058-97C3-57B65D304AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D182DEC2-B1A4-4058-97C3-57B65D304AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D182DEC2-B1A4-4058-97C3-57B65D304AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4A8EEB-6AD6-494E-9A92-3CCCFCAC2C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4A8EEB-6AD6-494E-9A92-3CCCFCAC2C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4A8EEB-6AD6-494E-9A92-3CCCFCAC2C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4A8EEB-6AD6-494E-9A92-3CCCFCAC2C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5189A9C5-D774-4E22-AF9E-44DB6A58D052}
+	EndGlobalSection
+EndGlobal
