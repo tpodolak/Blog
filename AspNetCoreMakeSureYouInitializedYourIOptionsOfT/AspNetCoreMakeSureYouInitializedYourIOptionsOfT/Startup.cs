@@ -18,6 +18,7 @@ namespace AspNetCoreMakeSureYouInitializedYourIOptionsOfT
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // runtime validation disabled
             services.AddTransient(typeof(IOptionsFactory<>), typeof(ValidatableOptionsFactory<>));
             services.AddOptions();
             services.AddMvc();

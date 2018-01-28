@@ -1,24 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.AspNetCore.Server.Kestrel.Internal.System;
 using Microsoft.Extensions.Options;
 
 namespace AspNetCoreMakeSureYouInitializedYourIOptionsOfT
 {
-    // first attempt of validation
     public class ValidatableOptionsFactory<TOptions> : OptionsFactory<TOptions> where TOptions : class, new()
     {
-        private readonly IEnumerable<IConfigureOptions<TOptions>> _setups;
-        private readonly IEnumerable<IPostConfigureOptions<TOptions>> _postConfigures;
+        private static readonly string NamespacePrefix = typeof(Program).Namespace.Split('.').First();
 
         public ValidatableOptionsFactory(IEnumerable<IConfigureOptions<TOptions>> setups, IEnumerable<IPostConfigureOptions<TOptions>> postConfigures)
             : base(setups, postConfigures)
         {
-            _setups = setups;
-            _postConfigures = postConfigures;
-            if (typeof(TOptions).FullName.StartsWith("AspNetCoreMakeSureYouInitializedYourIOptionsOfT") && setups.Any() == false && postConfigures.Any() == false)
+            if (typeof(TOptions).Namespace.StartsWith(NamespacePrefix) && setups.Any() == false &&
+                postConfigures.Any() == false)
             {
-                throw new InvalidOperationException($"No configuration options or post configuration options was found to configure {typeof(TOptions)}");
+                throw new InvalidOperationException(
+                    $"No configuration options or post configuration options was found to configure {typeof(TOptions)}");
             }
         }
     }
