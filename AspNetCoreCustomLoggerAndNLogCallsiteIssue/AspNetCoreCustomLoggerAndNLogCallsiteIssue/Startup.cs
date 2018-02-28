@@ -30,13 +30,13 @@ namespace AspNetCoreCustomLoggerAndNLogCallsiteIssue
             services.AddMvc();
             if (_appSettingsOptions.Value.UseSameAssemblyLogger)
             {
-                services.Replace(new ServiceDescriptor(typeof(ILogger<>), typeof(SameAssemblyLogger<>), ServiceLifetime.Singleton));
+                services.Replace(new ServiceDescriptor(typeof(ILogger<>), typeof(Logger<>), ServiceLifetime.Singleton));
             }
 
             if (_appSettingsOptions.Value.UseSeparateAssemblyLogger)
             {
-                services.Replace(new ServiceDescriptor(typeof(ILogger<>), typeof(SeparateAssemblyLogger<>), ServiceLifetime.Singleton));
-                LogManager.AddHiddenAssembly(typeof(SeparateAssemblyLogger<>).Assembly);
+                services.Replace(new ServiceDescriptor(typeof(ILogger<>), typeof(Logger.Logger<>), ServiceLifetime.Singleton));
+                LogManager.AddHiddenAssembly(typeof(Logger.Logger<>).Assembly);
             }
         }
 

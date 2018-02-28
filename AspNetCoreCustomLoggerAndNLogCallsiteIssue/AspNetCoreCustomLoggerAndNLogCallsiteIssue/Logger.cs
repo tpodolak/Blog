@@ -1,13 +1,13 @@
 ﻿using System;
 using Microsoft.Extensions.Logging;
 
-namespace AspNetCoreCustomLoggerAndNLogCallsiteIssue.Logger
+namespace AspNetCoreCustomLoggerAndNLogCallsiteIssue
 {
-    public class SeparateAssemblyLogger<T> : ILogger<T>
+    public class Logger<T> : ILogger<T>
     {
         private readonly ILogger _logger;
 
-        public SeparateAssemblyLogger(ILoggerFactory loggerFactory)
+        public Logger(ILoggerFactory loggerFactory)
         {
             _logger = loggerFactory.CreateLogger<T>();
         }
@@ -17,7 +17,7 @@ namespace AspNetCoreCustomLoggerAndNLogCallsiteIssue.Logger
         {
             string Formatter(TState innserState, Exception innerException)
             {
-                // additional logic for all providers goes here
+                // additional logic goes here, in my case that was extracting additional information from custom exceptions
                 var message = formatter(innserState, innerException) ?? string.Empty;
                 return message + " additional stuff in here";
             }
