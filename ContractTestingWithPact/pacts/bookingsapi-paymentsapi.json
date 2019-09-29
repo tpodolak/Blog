@@ -1,0 +1,67 @@
+{
+  "consumer": {
+    "name": "BookingsApi"
+  },
+  "provider": {
+    "name": "PaymentsApi"
+  },
+  "interactions": [
+    {
+      "description": "a request to retrieve booking by id",
+      "providerState": "There is booking with id  bookingId",
+      "request": {
+        "method": "get",
+        "path": "/api/Payments/5CACC48C-C002-4ADD-BA99-58F7B78BB1B5",
+        "headers": {
+          "Accept": "application/json"
+        },
+        "matchingRules": {
+          "$.path": {
+            "match": "regex",
+            "regex": "^\\/api\\/Payments\\/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "body": {
+          "id": "5CACC48C-C002-4ADD-BA99-58F7B78BB1B5",
+          "name": "my name",
+          "transactions": [
+            {
+              "id": "5CACC48C-C002-4ADD-BA99-58F7B78BB1B5",
+              "amount": 0
+            }
+          ]
+        },
+        "matchingRules": {
+          "$.body": {
+            "match": "type"
+          },
+          "$.body.id": {
+            "match": "regex",
+            "regex": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+          },
+          "$.body.transactions": {
+            "min": 1
+          },
+          "$.body.transactions[*].*": {
+            "match": "type"
+          },
+          "$.body.transactions[*].id": {
+            "match": "regex",
+            "regex": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

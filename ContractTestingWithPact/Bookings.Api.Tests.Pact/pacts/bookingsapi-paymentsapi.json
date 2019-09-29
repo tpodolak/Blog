@@ -1,0 +1,48 @@
+{
+  "consumer": {
+    "name": "BookingsApi"
+  },
+  "provider": {
+    "name": "PaymentsApi"
+  },
+  "interactions": [
+    {
+      "description": "a request to retrieve booking by id",
+      "providerState": "There is booking with id  bookingId",
+      "request": {
+        "method": "get",
+        "path": "/api/Payments/5CACC48C-C002-4ADD-BA99-58F7B78BB1B5",
+        "headers": {
+          "Accept": "application/json"
+        },
+        "matchingRules": {
+          "$.path": {
+            "match": "regex",
+            "regex": "^\\/api\\/Payments\\/[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+          }
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "Id": "5CACC48C-C002-4ADD-BA99-58F7B78BB1B5",
+          "Name": "event name"
+        },
+        "matchingRules": {
+          "$.body.Id": {
+            "match": "regex",
+            "regex": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
