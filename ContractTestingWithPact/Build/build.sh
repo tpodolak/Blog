@@ -1,10 +1,12 @@
-#!/usr/bin/env bash 
+#!/bin/bash
+echo "Here" 
 SCRIPT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 source $SCRIPT_DIR/build.config
 TOOLS_DIR=$SCRIPT_DIR/tools
 CAKE_EXE=$TOOLS_DIR/dotnet-cake
 CAKE_PATH=$TOOLS_DIR/.store/cake.tool/$CAKE_VERSION
 
+echo "Here"
 if [ "$CAKE_VERSION" = "" ]; then
     echo "An error occured while parsing Cake version."
     exit 1
