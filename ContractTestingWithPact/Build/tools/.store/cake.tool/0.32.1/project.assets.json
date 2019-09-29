@@ -1,0 +1,279 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Cake.Tool/0.32.1": {
+        "type": "package"
+      }
+    },
+    ".NETCoreApp,Version=v2.2/any": {
+      "Cake.Tool/0.32.1": {
+        "type": "package",
+        "tools": {
+          "tools/netcoreapp2.1/any/Autofac.dll": {},
+          "tools/netcoreapp2.1/any/Cake.Common.dll": {},
+          "tools/netcoreapp2.1/any/Cake.Common.pdb": {},
+          "tools/netcoreapp2.1/any/Cake.Common.xml": {},
+          "tools/netcoreapp2.1/any/Cake.Core.dll": {},
+          "tools/netcoreapp2.1/any/Cake.Core.pdb": {},
+          "tools/netcoreapp2.1/any/Cake.Core.xml": {},
+          "tools/netcoreapp2.1/any/Cake.NuGet.dll": {},
+          "tools/netcoreapp2.1/any/Cake.NuGet.pdb": {},
+          "tools/netcoreapp2.1/any/Cake.NuGet.xml": {},
+          "tools/netcoreapp2.1/any/Cake.deps.json": {},
+          "tools/netcoreapp2.1/any/Cake.dll": {},
+          "tools/netcoreapp2.1/any/Cake.dll.config": {},
+          "tools/netcoreapp2.1/any/Cake.pdb": {},
+          "tools/netcoreapp2.1/any/Cake.runtimeconfig.json": {},
+          "tools/netcoreapp2.1/any/Cake.xml": {},
+          "tools/netcoreapp2.1/any/DotnetToolSettings.xml": {},
+          "tools/netcoreapp2.1/any/Microsoft.CodeAnalysis.CSharp.Scripting.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.CodeAnalysis.CSharp.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.CodeAnalysis.Scripting.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.CodeAnalysis.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.DotNet.PlatformAbstractions.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.DependencyModel.dll": {},
+          "tools/netcoreapp2.1/any/Newtonsoft.Json.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Commands.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Common.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Configuration.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Credentials.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.DependencyResolver.Core.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Frameworks.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.LibraryModel.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.PackageManagement.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Packaging.Core.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Packaging.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.ProjectModel.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Protocol.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Resolver.dll": {},
+          "tools/netcoreapp2.1/any/NuGet.Versioning.dll": {},
+          "tools/netcoreapp2.1/any/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/cs/Microsoft.CodeAnalysis.CSharp.resources.dll": {},
+          "tools/netcoreapp2.1/any/cs/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/cs/Microsoft.CodeAnalysis.resources.dll": {},
+          "tools/netcoreapp2.1/any/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/de/Microsoft.CodeAnalysis.CSharp.resources.dll": {},
+          "tools/netcoreapp2.1/any/de/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/de/Microsoft.CodeAnalysis.resources.dll": {},
+          "tools/netcoreapp2.1/any/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/es/Microsoft.CodeAnalysis.CSharp.resources.dll": {},
+          "tools/netcoreapp2.1/any/es/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/es/Microsoft.CodeAnalysis.resources.dll": {},
+          "tools/netcoreapp2.1/any/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/fr/Microsoft.CodeAnalysis.CSharp.resources.dll": {},
+          "tools/netcoreapp2.1/any/fr/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/fr/Microsoft.CodeAnalysis.resources.dll": {},
+          "tools/netcoreapp2.1/any/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/it/Microsoft.CodeAnalysis.CSharp.resources.dll": {},
+          "tools/netcoreapp2.1/any/it/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/it/Microsoft.CodeAnalysis.resources.dll": {},
+          "tools/netcoreapp2.1/any/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/ja/Microsoft.CodeAnalysis.CSharp.resources.dll": {},
+          "tools/netcoreapp2.1/any/ja/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/ja/Microsoft.CodeAnalysis.resources.dll": {},
+          "tools/netcoreapp2.1/any/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/ko/Microsoft.CodeAnalysis.CSharp.resources.dll": {},
+          "tools/netcoreapp2.1/any/ko/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/ko/Microsoft.CodeAnalysis.resources.dll": {},
+          "tools/netcoreapp2.1/any/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/pl/Microsoft.CodeAnalysis.CSharp.resources.dll": {},
+          "tools/netcoreapp2.1/any/pl/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/pl/Microsoft.CodeAnalysis.resources.dll": {},
+          "tools/netcoreapp2.1/any/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll": {},
+          "tools/netcoreapp2.1/any/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/pt-BR/Microsoft.CodeAnalysis.resources.dll": {},
+          "tools/netcoreapp2.1/any/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/ru/Microsoft.CodeAnalysis.CSharp.resources.dll": {},
+          "tools/netcoreapp2.1/any/ru/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/ru/Microsoft.CodeAnalysis.resources.dll": {},
+          "tools/netcoreapp2.1/any/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll": {},
+          "tools/netcoreapp2.1/any/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll": {},
+          "tools/netcoreapp2.1/any/runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll": {},
+          "tools/netcoreapp2.1/any/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll": {},
+          "tools/netcoreapp2.1/any/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/tr/Microsoft.CodeAnalysis.CSharp.resources.dll": {},
+          "tools/netcoreapp2.1/any/tr/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/tr/Microsoft.CodeAnalysis.resources.dll": {},
+          "tools/netcoreapp2.1/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll": {},
+          "tools/netcoreapp2.1/any/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/zh-Hans/Microsoft.CodeAnalysis.resources.dll": {},
+          "tools/netcoreapp2.1/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll": {},
+          "tools/netcoreapp2.1/any/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll": {},
+          "tools/netcoreapp2.1/any/zh-Hant/Microsoft.CodeAnalysis.resources.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cake.Tool/0.32.1": {
+      "sha512": "cYT0G4pWLA6d4KsTNzCD/refmAoe1LvSQydkf7yHmQ32kpqg/K61wpiiCGdsdxjDE6MAjuMdrFp3SvcEfCzs3w==",
+      "type": "package",
+      "path": "cake.tool/0.32.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "cake.tool.0.32.1.nupkg.sha512",
+        "cake.tool.nuspec",
+        "tools/netcoreapp2.1/any/Autofac.dll",
+        "tools/netcoreapp2.1/any/Cake.Common.dll",
+        "tools/netcoreapp2.1/any/Cake.Common.pdb",
+        "tools/netcoreapp2.1/any/Cake.Common.xml",
+        "tools/netcoreapp2.1/any/Cake.Core.dll",
+        "tools/netcoreapp2.1/any/Cake.Core.pdb",
+        "tools/netcoreapp2.1/any/Cake.Core.xml",
+        "tools/netcoreapp2.1/any/Cake.NuGet.dll",
+        "tools/netcoreapp2.1/any/Cake.NuGet.pdb",
+        "tools/netcoreapp2.1/any/Cake.NuGet.xml",
+        "tools/netcoreapp2.1/any/Cake.deps.json",
+        "tools/netcoreapp2.1/any/Cake.dll",
+        "tools/netcoreapp2.1/any/Cake.dll.config",
+        "tools/netcoreapp2.1/any/Cake.pdb",
+        "tools/netcoreapp2.1/any/Cake.runtimeconfig.json",
+        "tools/netcoreapp2.1/any/Cake.xml",
+        "tools/netcoreapp2.1/any/DotnetToolSettings.xml",
+        "tools/netcoreapp2.1/any/Microsoft.CodeAnalysis.CSharp.Scripting.dll",
+        "tools/netcoreapp2.1/any/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/netcoreapp2.1/any/Microsoft.CodeAnalysis.Scripting.dll",
+        "tools/netcoreapp2.1/any/Microsoft.CodeAnalysis.dll",
+        "tools/netcoreapp2.1/any/Microsoft.DotNet.PlatformAbstractions.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.DependencyModel.dll",
+        "tools/netcoreapp2.1/any/Newtonsoft.Json.dll",
+        "tools/netcoreapp2.1/any/NuGet.Commands.dll",
+        "tools/netcoreapp2.1/any/NuGet.Common.dll",
+        "tools/netcoreapp2.1/any/NuGet.Configuration.dll",
+        "tools/netcoreapp2.1/any/NuGet.Credentials.dll",
+        "tools/netcoreapp2.1/any/NuGet.DependencyResolver.Core.dll",
+        "tools/netcoreapp2.1/any/NuGet.Frameworks.dll",
+        "tools/netcoreapp2.1/any/NuGet.LibraryModel.dll",
+        "tools/netcoreapp2.1/any/NuGet.PackageManagement.dll",
+        "tools/netcoreapp2.1/any/NuGet.Packaging.Core.dll",
+        "tools/netcoreapp2.1/any/NuGet.Packaging.dll",
+        "tools/netcoreapp2.1/any/NuGet.ProjectModel.dll",
+        "tools/netcoreapp2.1/any/NuGet.Protocol.dll",
+        "tools/netcoreapp2.1/any/NuGet.Resolver.dll",
+        "tools/netcoreapp2.1/any/NuGet.Versioning.dll",
+        "tools/netcoreapp2.1/any/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp2.1/any/cs/Microsoft.CodeAnalysis.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/cs/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp2.1/any/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp2.1/any/de/Microsoft.CodeAnalysis.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/de/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp2.1/any/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp2.1/any/es/Microsoft.CodeAnalysis.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/es/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp2.1/any/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp2.1/any/fr/Microsoft.CodeAnalysis.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/fr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp2.1/any/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp2.1/any/it/Microsoft.CodeAnalysis.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/it/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp2.1/any/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp2.1/any/ja/Microsoft.CodeAnalysis.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/ja/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp2.1/any/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp2.1/any/ko/Microsoft.CodeAnalysis.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/ko/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp2.1/any/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp2.1/any/pl/Microsoft.CodeAnalysis.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/pl/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp2.1/any/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp2.1/any/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp2.1/any/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp2.1/any/ru/Microsoft.CodeAnalysis.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/ru/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp2.1/any/runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "tools/netcoreapp2.1/any/runtimes/unix/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "tools/netcoreapp2.1/any/runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "tools/netcoreapp2.1/any/runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "tools/netcoreapp2.1/any/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp2.1/any/tr/Microsoft.CodeAnalysis.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/tr/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp2.1/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp2.1/any/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+        "tools/netcoreapp2.1/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+        "tools/netcoreapp2.1/any/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll",
+        "tools/netcoreapp2.1/any/zh-Hant/Microsoft.CodeAnalysis.resources.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.2": [
+      "cake.tool >= 0.32.1"
+    ]
+  },
+  "packageFolders": {
+    "/mnt/86AAF69FAAF68B47/Blog/ContractTestingWithPact/Build/tools/.store/.stage/3gqdcsp4.gur": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/tmp/bixleati.tkv/restore.csproj",
+      "projectName": "restore",
+      "projectPath": "/tmp/bixleati.tkv/restore.csproj",
+      "packagesPath": "/mnt/86AAF69FAAF68B47/Blog/ContractTestingWithPact/Build/tools/.store/.stage/3gqdcsp4.gur",
+      "outputPath": "/mnt/86AAF69FAAF68B47/Blog/ContractTestingWithPact/Build/tools/.store/.stage/3gqdcsp4.gur/",
+      "projectStyle": "DotnetToolReference",
+      "configFilePaths": [
+        "/home/tpodolak/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.2"
+      ],
+      "sources": {
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "dependencies": {
+          "cake.tool": {
+            "target": "Package",
+            "version": "[0.32.1, )"
+          }
+        },
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    },
+    "runtimes": {
+      "any": {
+        "#import": []
+      }
+    }
+  }
+}

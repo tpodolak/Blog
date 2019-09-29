@@ -26,6 +26,8 @@ namespace Payments.Api.Tests.Contract
         {
             var config = new PactVerifierConfig
             {
+                PublishVerificationResults = true,
+                ProviderVersion = "1.0.1",
                 Outputters = new List<IOutput>
                 {
                     new XUnitOutput(_output)
@@ -42,7 +44,7 @@ namespace Payments.Api.Tests.Contract
             pactVerifier
                 .ServiceProvider("PaymentsApi", "http://localhost:9000")
                 .HonoursPactWith("BookingsApi")
-                .PactUri(Path.Combine(GetLocation("pacts"), "bookingsapi-paymentsapi.json"))
+                .PactUri("http://localhost:9292/pacts/provider/PaymentsApi/consumer/BookingsApi/latest")
                 .Verify();
         }
 

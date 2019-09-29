@@ -51,7 +51,7 @@ namespace Bookings.Api.Tests.Contract
                         }, 1)
                     })
                 });
-
+            
             var client = new PaymentsApiClient(_paymentsApiPact.MockProviderServiceBaseUri);
 
             var byId = await client.GetById(paymentId);

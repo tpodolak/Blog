@@ -1,4 +1,5 @@
 #addin "nuget:https://www.nuget.org/api/v2?package=PactNet&version=2.4.7"
+using PactNet;
 var target = Argument("target", "Default");
 var configuration = Argument("configuration", "Release");
 
@@ -45,16 +46,16 @@ Task("Run-Pact-Tests")
 });
 
 Task("Publish-Pact")
-.IsDependentOn("Run-Pact-Tests")
+//.IsDependentOn("Run-Pact-Tests")
 .Does(() =>
 {
-    var pactPublisher = new PactPublisher("http://test.pact.dius.com.au", new PactUriOptions("username", "password"));
+    var pactPublisher = new PactPublisher("http://localhost:9292/");
+    // var globberSettings = new GlobberSettings{ Predicate = dir => dir.Path == pactsDir };
 
-
-
-pactPublisher.PublishToBroker(
-    "..\\..\\..\\Samples\\EventApi\\Consumer.Tests\\pacts\\event_api_consumer-event_api.json",
-    "1.0.2", new [] { "master" });
+    foreach(var pact in GetFiles("../pacts/*.json"))
+    {
+        pactPublisher.PublishToBroker(pact.ToString(), version, new [] { "master" });
+    }
 });
 
 RunTarget(target);
