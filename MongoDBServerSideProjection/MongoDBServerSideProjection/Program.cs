@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 using System.Threading.Tasks;
 using Bogus;
@@ -37,28 +39,38 @@ namespace MongoDBServerSideProjection
             await accountsCollection.Find(defaultAccountFilterDefinition)
                 .ToListAsync();
 
+            // as projection is client side projection - entire object is returned from mongo
+            Console.WriteLine("As projection");
+            List<AccountSlim> accountSlims = await accountsCollection.Find(defaultAccountFilterDefinition)
+                .Project(Builders<Account>.Projection.As<AccountSlim>())
+                .ToListAsync();
+
+            // FindOptions projection - same as above
+            IAsyncCursor<AccountSlim> asyncCursor = await accountsCollection.FindAsync(defaultAccountFilterDefinition,
+                new FindOptions<Account, AccountSlim>());
+
+            // projection with build in ObjectProjectionDefinition - requires manual listing of properties
+            Console.WriteLine($"{nameof(ObjectProjectionDefinition<Account, AccountSlim>)} projection");
+            var listAsync = await accountsCollection.Find(defaultAccountFilterDefinition)
+                .Project(new ObjectProjectionDefinition<Account, AccountSlim>(new { id = 1, name = 1}))
+                .ToListAsync();
+
             // projection with build in ObjectProjectionDefinition - requires manual listing of properties
             Console.WriteLine($"{nameof(ObjectProjectionDefinition<Account, AccountSlim>)} projection");
             await accountsCollection.Find(defaultAccountFilterDefinition)
                 .Project(new ObjectProjectionDefinition<Account, AccountSlim>(new { id = 1, name = 1}))
                 .ToListAsync();
-            
-            /* This will throw
-            await accountsCollection.Find(defaultAccountFilterDefinition)
-                .Project(new ObjectProjectionDefinition<Account, AccountSlim>(new AccountSlim()))
-                .ToListAsync();
-            */
-            
-            // as projection is client side projection - entire object is returned from mongo
-            Console.WriteLine("As projection");
-            await accountsCollection.Find(defaultAccountFilterDefinition)
-                .Project(Builders<Account>.Projection.As<AccountSlim>())
-                .ToListAsync();
 
-            // FindOptions projection - same as above
-            await accountsCollection.FindAsync(defaultAccountFilterDefinition, new FindOptions<Account, AccountSlim>());
+
+            Console.WriteLine("Bson document projection");
+            var bsonDocument = Builders<Account>.Projection.Exclude(x => x.Transactions)
+                .Render(accountsCollection.DocumentSerializer, accountsCollection.Settings.SerializerRegistry);
+            List<AccountSlim> @async = await accountsCollection.Find(defaultAccountFilterDefinition)
+                .Project(new BsonDocumentProjectionDefinition<Account, AccountSlim>(bsonDocument))
+                .ToListAsync();
 
             // server side projection with custom extension, building projection based on object properties
+            Console.WriteLine("Server side projection - automatically generated");
             await accountsCollection.Find(defaultAccountFilterDefinition)
                 .ProjectTo<Account, AccountSlim>()
                 .ToListAsync();
