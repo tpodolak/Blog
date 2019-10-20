@@ -71,7 +71,7 @@ namespace MongoDBServerSideProjection
 
             // server side projection with custom extension, building projection based on object properties
             Console.WriteLine("Server side projection - with find fluent extension");
-            var list = await accountsCollection.Find(defaultAccountFilterDefinition)
+            List<AccountSlim> list = await accountsCollection.Find(defaultAccountFilterDefinition)
                 .ProjectTo<Account, AccountSlim>()
                 .ToListAsync();
 
@@ -146,11 +146,7 @@ namespace MongoDBServerSideProjection
 
         private static void RegisterClassMaps()
         {
-            BsonClassMap.RegisterClassMap<Account>(cm =>
-            {
-                cm.AutoMap();
-                cm.MapProperty(account => account.Name).SetElementName("AccountName");
-            });
+            
 
         }
         
