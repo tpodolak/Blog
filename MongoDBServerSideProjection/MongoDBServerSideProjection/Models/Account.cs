@@ -3,7 +3,7 @@ using MongoDB.Bson;
 
 namespace MongoDBServerSideProjection.Models
 {
-    public class Account : IAccountDefinitions
+    public class Account : IAccountDefinition
     {
         public ObjectId Id { get; set; }
 

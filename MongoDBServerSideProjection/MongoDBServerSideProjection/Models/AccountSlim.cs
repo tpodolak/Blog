@@ -2,7 +2,7 @@ using MongoDB.Bson;
 
 namespace MongoDBServerSideProjection.Models
 {
-    public class AccountSlim : IAccountDefinitions
+    public class AccountSlim : IAccountDefinition
     {
         public ObjectId Id { get; set; }
         
