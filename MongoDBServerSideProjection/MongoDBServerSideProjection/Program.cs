@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Bogus;
 using MongoDB.Bson;
 using MongoDB.Bson.IO;
+using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Conventions;
 using MongoDB.Driver;
 using MongoDB.Driver.Core.Events;
@@ -23,6 +24,8 @@ namespace MongoDBServerSideProjection
         static async Task Main(string[] args)
         {
             var client = CreateMongoClient();
+            RegisterConventions();
+            RegisterClassMaps();
             
             await SeedAccountsCollection(client);
             
@@ -94,9 +97,6 @@ namespace MongoDBServerSideProjection
 
         private static async Task SeedAccountsCollection(MongoClient client)
         {
-            var pack = new ConventionPack { new IgnoreExtraElementsConvention(true) };
-            ConventionRegistry.Register("Ignore extra elements convention pack", pack, t => true);
-            
             var database = client.GetDatabase(AccountingDatabaseName);
             var collectionsCursor = await database.ListCollectionNamesAsync(new ListCollectionNamesOptions
             {
@@ -124,7 +124,23 @@ namespace MongoDBServerSideProjection
                 }).ToList()
             });
         }
+
+        private static void RegisterClassMaps()
+        {
+            BsonClassMap.RegisterClassMap<Account>(cm =>
+            {
+                cm.AutoMap();
+                cm.MapProperty(account => account.Name).SetElementName("AccountName");
+            });
+
+        }
         
+        private static void RegisterConventions()
+        {
+            var pack = new ConventionPack {new IgnoreExtraElementsConvention(true)};
+            ConventionRegistry.Register("Ignore extra elements convention pack", pack, t => true);
+        }
+
         private static IMongoCollection<Account> GetAccountsCollection(MongoClient client)
         {
             return client.GetDatabase(AccountingDatabaseName).GetCollection<Account>(AccountsCollectionName);
