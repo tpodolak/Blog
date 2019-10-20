@@ -70,9 +70,16 @@ namespace MongoDBServerSideProjection
                 .ToListAsync();
 
             // server side projection with custom extension, building projection based on object properties
-            Console.WriteLine("Server side projection - automatically generated");
-            await accountsCollection.Find(defaultAccountFilterDefinition)
+            Console.WriteLine("Server side projection - with find fluent extension");
+            var list = await accountsCollection.Find(defaultAccountFilterDefinition)
                 .ProjectTo<Account, AccountSlim>()
+                .ToListAsync();
+
+            // server side projection with custom extension, building projection based on object properties
+            Console.WriteLine("Server side projection - with builder extension");
+            var projection = Builders<Account>.Projection.ServerSide<Account, AccountSlim>();
+            List<AccountSlim> slims = await accountsCollection.Find(defaultAccountFilterDefinition)
+                .Project(projection)
                 .ToListAsync();
         }
 

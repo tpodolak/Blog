@@ -20,7 +20,7 @@ namespace MongoDBServerSideProjection.Projections
         {
             var bsonDocument = _projectionDefinition.Render(sourceSerializer, serializerRegistry);
 
-            return new RenderedProjectionDefinition<TResult>(bsonDocument, sourceSerializer as IBsonSerializer<TResult> ?? serializerRegistry.GetSerializer<TResult>());
+            return new RenderedProjectionDefinition<TResult>(bsonDocument, serializerRegistry.GetSerializer<TResult>());
         }
 
         private static ProjectionDefinition<TSource> BuildProjectionDefinition()
