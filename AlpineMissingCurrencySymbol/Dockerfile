@@ -28,7 +28,7 @@ RUN dotnet publish "./src/AlpineMissingCurrencySymbol/AlpineMissingCurrencySymbo
 
 # App image
 FROM mcr.microsoft.com/dotnet/core/aspnet:2.1.11-alpine
-#TWO LINES MAKE THE GLOBALIZATION WORK IN ALPINE IMAGES
+# TWO LINES MAKE THE GLOBALIZATION WORK IN ALPINE IMAGES
 ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false
 RUN apk add --no-cache icu-libs
 WORKDIR /app
