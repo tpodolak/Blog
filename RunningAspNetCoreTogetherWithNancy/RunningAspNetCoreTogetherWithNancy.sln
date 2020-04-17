@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunningAspNetCoreTogetherWithNancy", "RunningAspNetCoreTogetherWithNancy\RunningAspNetCoreTogetherWithNancy.csproj", "{3C209081-B001-4F58-AF5D-6585621D32FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C209081-B001-4F58-AF5D-6585621D32FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C209081-B001-4F58-AF5D-6585621D32FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C209081-B001-4F58-AF5D-6585621D32FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C209081-B001-4F58-AF5D-6585621D32FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
