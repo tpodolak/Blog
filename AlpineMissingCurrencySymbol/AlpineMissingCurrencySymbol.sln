@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlpineMissingCurrencySymbol", "src\AlpineMissingCurrencySymbol\AlpineMissingCurrencySymbol.csproj", "{10C6E8C9-51B2-45FB-9BFA-D91722BE16FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlpineMissingCurrencySymbol.Tests", "test\AlpineMissingCurrencySymbol.Tests\AlpineMissingCurrencySymbol.Tests.csproj", "{8C8323D4-460E-43D5-AB97-53DD5635B59A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10C6E8C9-51B2-45FB-9BFA-D91722BE16FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C6E8C9-51B2-45FB-9BFA-D91722BE16FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C6E8C9-51B2-45FB-9BFA-D91722BE16FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C6E8C9-51B2-45FB-9BFA-D91722BE16FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8323D4-460E-43D5-AB97-53DD5635B59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8323D4-460E-43D5-AB97-53DD5635B59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8323D4-460E-43D5-AB97-53DD5635B59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8323D4-460E-43D5-AB97-53DD5635B59A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
