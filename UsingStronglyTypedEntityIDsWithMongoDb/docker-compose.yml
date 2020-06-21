@@ -1,0 +1,6 @@
+version: "3.0"
+services:
+  mongo-db:
+    image: mongo:4.2-bionic
+    ports:
+    - 27017:27017
